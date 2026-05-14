@@ -1,0 +1,141 @@
+# AI 知识库助手
+
+## 项目概述
+
+自动化技术动态采集与分析系统。每日从 GitHub Trending 和 Hacker News 抓取 AI/LLM/Agent 领域的前沿动态，AI 分析后结构化存储为 JSON，支持 Telegram/飞书多渠道分发。
+
+## 技术栈
+
+- **语言**: Python 3.12
+- **AI 引擎**: Claude Code + 国产大模型（智谱 GLM-4 / 通义千问 / 文心一言）
+- **Agent 框架**: LangGraph
+- **数据采集**: OpenClaw
+- **存储**: JSON / SQLite
+- **分发**: Telegram Bot API / 飞书开放平台
+
+## 编码规范
+
+### 风格
+- PEP 8，snake_case 变量/函数，PascalCase 类名
+- Google 风格 docstring
+- 禁止裸 `print()`，使用 `logging` 模块
+
+### 示例
+
+```python
+def fetch_trending(topic: str, limit: int = 10) -> list[dict]:
+    """从 GitHub Trending 获取指定主题的热门项目。
+
+    Args:
+        topic: 主题名称，如 'ai'、'llm'、'agent'。
+        limit: 返回结果数量上限，默认为 10。
+
+    Returns:
+        包含项目信息的字典列表。
+
+    Raises:
+        NetworkError: 网络请求失败时抛出。
+    """
+    logger.info("开始采集 GitHub Trending: topic=%s", topic)
+    ...
+```
+
+## 项目结构
+
+```
+ai-knowledge-base/
+├── .claude/
+│   ├── agents/              # Agent 定义
+│   │   ├── collector.py     # 采集 Agent
+│   │   ├── analyzer.py      # 分析 Agent
+│   │   └── organizer.py     # 整理 Agent
+│   ├── skills/              # 可复用技能
+│   │   ├── web_fetch.py     # 网页抓取
+│   │   ├── summarize.py     # 内容摘要
+│   │   └── distribute.py    # 消息分发
+│   └── settings.json        # 配置
+├── knowledge/
+│   ├── raw/                 # 原始数据
+│   ├── processed/           # 处理后数据
+│   └── archive/             # 归档
+├── config/
+│   └── config.yaml
+├── logs/
+├── tests/
+└── CLAUDE.md
+```
+
+## 知识条目格式
+
+```json
+{
+  "id": "kb_20240515_gh_001",
+  "title": "LangChain v0.2 发布",
+  "source_url": "https://github.com/langchain-ai/langchain",
+  "source_type": "github_trending",
+  "summary": "新增多模态 Agent 支持，优化链式调用性能。",
+  "content": "详细内容...",
+  "tags": ["langchain", "agent", "multimodal"],
+  "category": "framework",
+  "status": "draft",
+  "quality_score": 85,
+  "collected_at": "2024-05-15T08:30:00Z",
+  "analyzed_at": "2024-05-15T09:00:00Z",
+  "published_at": null,
+  "publish_channels": [],
+  "metadata": {
+    "stars": 85000,
+    "language": "Python"
+  }
+}
+```
+
+### 必填字段
+
+| 字段 | 说明 |
+|------|------|
+| id | 唯一标识，格式 `kb_YYYYMMDD_来源_序号` |
+| title | 标题 |
+| source_url | 原始链接 |
+| source_type | `github_trending` / `hacker_news` |
+| summary | AI 摘要（100-300字） |
+| tags | 标签（3-5个） |
+| category | `framework` / `paper` / `tool` / `news` |
+| status | `draft` / `reviewed` / `published` / `archived` |
+| collected_at | 采集时间（ISO 8601） |
+
+## Agent 角色
+
+| Agent | 职责 | 输入 → 输出 |
+|-------|------|-------------|
+| Collector | 抓取原始内容 | 数据源配置 → 原始 JSON |
+| Analyzer | AI 分析、摘要、分类 | 原始 JSON → 结构化条目 |
+| Organizer | 质量评分、去重、分发 | 结构化条目 → 分发内容 |
+
+### 工作流
+
+```
+GitHub Trending ─┐
+                 ├─→ Collector ─→ Analyzer ─→ Organizer ─→ Telegram/飞书
+Hacker News ─────┘
+```
+
+## 红线
+
+| # | 禁止操作 | 后果 |
+|---|----------|------|
+| 1 | 爬取需登录页面 | 账号封禁 |
+| 2 | 绕过 robots.txt | 法律风险 |
+| 3 | 采集频率 > 1次/分钟 | IP 被封 |
+| 4 | 存储敏感信息（API Key、密码） | 安全漏洞 |
+| 5 | 发布未审核内容 | 质量失控 |
+| 6 | 忽略异常处理 | 系统不稳定 |
+| 7 | 日志记录敏感数据 | 隐私泄露 |
+| 8 | 硬编码配置 | 维护困难 |
+
+## 合规
+
+- 遵守目标网站 ToS 和 robots.txt
+- 摘要需 AI 原创，禁止复制原文
+- 不采集/存储用户个人信息
+- 遵守各平台 API 限制
