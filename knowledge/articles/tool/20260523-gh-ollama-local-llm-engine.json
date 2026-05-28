@@ -1,0 +1,27 @@
+{
+  "id": "kb_20260523_gh_005",
+  "title": "Ollama — 本地大模型运行引擎",
+  "source_url": "https://github.com/ollama/ollama",
+  "source_type": "github_trending",
+  "summary": "Ollama是最流行的本地大模型运行引擎，采用Go语言开发，提供极简命令行接口和兼容OpenAI的API服务。本周新增多个国产模型支持（DeepSeek-R1、Qwen3系列），支持模型量化降低显存需求，提供Modelfile自定义机制。172K Star和极低使用门槛使其成为本地大模型部署的首选入口。",
+  "content": "大模型本地化部署是2024-2026年最明确的技术趋势之一。企业出于数据安全、成本控制和延迟优化的考虑，越来越倾向于将模型部署在本地或私有云。Ollama作为最流行的本地大模型运行引擎，已成为这一趋势的核心基础设施。Ollama采用Go语言开发，提供极简的命令行接口和兼容OpenAI的API服务。用户可通过一条命令下载并运行主流开源模型（Llama、Qwen、DeepSeek、Gemma等），无需手动配置GPU驱动或依赖环境。本周更新重点新增了对多个国产模型的支持，包括DeepSeek-R1最新版本和Qwen3系列，反映了对中国AI生态的持续投入。Ollama支持模型量化（4bit/8bit），显著降低显存需求；提供Modelfile自定义机制，支持从基础模型创建定制化变体；多模态模型（LLaVA等）也已得到支持。Ollama的172K Star和极低的使用门槛，使其成为个人开发者体验本地大模型的首选入口。本周新增国产模型支持，进一步降低了中文用户的使用门槛，也表明国产开源模型的影响力正在全球范围内扩展。Ollama通过极致的易用性设计，将本地大模型部署从专业运维工作变成了一行命令的事。它是当前本地AI生态最核心的运行时引擎，本周新增国产模型支持使其对中文开发者更加友好。",
+  "tags": ["ollama", "local-llm", "model-deployment", "chinese-model", "quantization"],
+  "category": "tool",
+  "status": "draft",
+  "quality_score": 90,
+  "version": 1,
+  "collected_at": "2026-05-23T08:00:00Z",
+  "analyzed_at": "2026-05-23T10:00:00Z",
+  "published_at": null,
+  "publish_status": {},
+  "metadata": {
+    "stars": 172061,
+    "language": "Go",
+    "highlights": [
+      "极简体验，一条命令下载运行模型",
+      "本周新增国产模型（DeepSeek-R1、Qwen3）",
+      "模型量化支持（4bit/8bit），降低显存需求",
+      "OpenAI兼容API，无缝对接现有工具链"
+    ]
+  }
+}

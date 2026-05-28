@@ -1,0 +1,252 @@
+[
+  {
+    "id": "kb_20260527_gh_2f5b9452",
+    "title": "Significant-Gravitas/AutoGPT",
+    "source_url": "https://github.com/Significant-Gravitas/AutoGPT",
+    "source_type": "github",
+    "description": "AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.",
+    "metadata": {
+      "stars": 184586,
+      "language": "Python",
+      "forks": 46222,
+      "open_issues": 438
+    },
+    "collected_at": "2026-05-27T15:09:54.223499+00:00"
+  },
+  {
+    "id": "kb_20260527_gh_978e35c6",
+    "title": "NousResearch/hermes-agent",
+    "source_url": "https://github.com/NousResearch/hermes-agent",
+    "source_type": "github",
+    "description": "The agent that grows with you",
+    "metadata": {
+      "stars": 169838,
+      "language": "Python",
+      "forks": 28327,
+      "open_issues": 14281
+    },
+    "collected_at": "2026-05-27T15:09:54.223511+00:00"
+  },
+  {
+    "id": "kb_20260527_gh_212d7171",
+    "title": "AUTOMATIC1111/stable-diffusion-webui",
+    "source_url": "https://github.com/AUTOMATIC1111/stable-diffusion-webui",
+    "source_type": "github",
+    "description": "Stable Diffusion web UI",
+    "metadata": {
+      "stars": 163298,
+      "language": "Python",
+      "forks": 30364,
+      "open_issues": 2488
+    },
+    "collected_at": "2026-05-27T15:09:54.223517+00:00"
+  },
+  {
+    "id": "kb_20260527_gh_cf909fcd",
+    "title": "huggingface/transformers",
+    "source_url": "https://github.com/huggingface/transformers",
+    "source_type": "github",
+    "description": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training. ",
+    "metadata": {
+      "stars": 160987,
+      "language": "Python",
+      "forks": 33337,
+      "open_issues": 2392
+    },
+    "collected_at": "2026-05-27T15:09:54.223521+00:00"
+  },
+  {
+    "id": "kb_20260527_gh_4d010239",
+    "title": "langflow-ai/langflow",
+    "source_url": "https://github.com/langflow-ai/langflow",
+    "source_type": "github",
+    "description": "Langflow is a powerful tool for building and deploying AI-powered agents and workflows.",
+    "metadata": {
+      "stars": 148814,
+      "language": "Python",
+      "forks": 9128,
+      "open_issues": 945
+    },
+    "collected_at": "2026-05-27T15:09:54.223524+00:00"
+  },
+  {
+    "id": "kb_20260527_gh_ea97e2f9",
+    "title": "anthropics/skills",
+    "source_url": "https://github.com/anthropics/skills",
+    "source_type": "github",
+    "description": "Public repository for Agent Skills",
+    "metadata": {
+      "stars": 141765,
+      "language": "Python",
+      "forks": 16747,
+      "open_issues": 885
+    },
+    "collected_at": "2026-05-27T15:09:54.223528+00:00"
+  },
+  {
+    "id": "kb_20260527_gh_5c33f43b",
+    "title": "open-webui/open-webui",
+    "source_url": "https://github.com/open-webui/open-webui",
+    "source_type": "github",
+    "description": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)",
+    "metadata": {
+      "stars": 138877,
+      "language": "Python",
+      "forks": 19880,
+      "open_issues": 309
+    },
+    "collected_at": "2026-05-27T15:09:54.223531+00:00"
+  },
+  {
+    "id": "kb_20260527_gh_903bfb06",
+    "title": "langchain-ai/langchain",
+    "source_url": "https://github.com/langchain-ai/langchain",
+    "source_type": "github",
+    "description": "The agent engineering platform.",
+    "metadata": {
+      "stars": 137782,
+      "language": "Python",
+      "forks": 22821,
+      "open_issues": 587
+    },
+    "collected_at": "2026-05-27T15:09:54.223535+00:00"
+  },
+  {
+    "id": "kb_20260527_gh_1e61851c",
+    "title": "anthropics/claude-code",
+    "source_url": "https://github.com/anthropics/claude-code",
+    "source_type": "github",
+    "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
+    "metadata": {
+      "stars": 126956,
+      "language": "Python",
+      "forks": 20808,
+      "open_issues": 9366
+    },
+    "collected_at": "2026-05-27T15:09:54.223539+00:00"
+  },
+  {
+    "id": "kb_20260527_gh_33054ecb",
+    "title": "microsoft/markitdown",
+    "source_url": "https://github.com/microsoft/markitdown",
+    "source_type": "github",
+    "description": "Python tool for converting files and office documents to Markdown.",
+    "metadata": {
+      "stars": 125422,
+      "language": "Python",
+      "forks": 8553,
+      "open_issues": 670
+    },
+    "collected_at": "2026-05-27T15:09:54.223542+00:00"
+  },
+  {
+    "id": "kb_20260527_rss_7722322e",
+    "title": "Declassified CIA Cartography Maps from the 1980s",
+    "source_url": "https://brilliantmaps.com/cia-maps-1980s/",
+    "source_type": "rss",
+    "description": "Article URL: https://brilliantmaps.com/cia-maps-1980s/ Comments URL: https://news.ycombinator.com/item?id=48294831 Points: 11 # Comments: 4",
+    "metadata": {
+      "feed_url": "https://hnrss.org/frontpage"
+    },
+    "collected_at": "2026-05-27T15:09:55.544400+00:00"
+  },
+  {
+    "id": "kb_20260527_rss_fedb9d04",
+    "title": "The VibeSec Reckoning",
+    "source_url": "https://martinfowler.com/articles/vibesec-reckoning.html",
+    "source_type": "rss",
+    "description": "Article URL: https://martinfowler.com/articles/vibesec-reckoning.html Comments URL: https://news.ycombinator.com/item?id=48294670 Points: 14 # Comments: 1",
+    "metadata": {
+      "feed_url": "https://hnrss.org/frontpage"
+    },
+    "collected_at": "2026-05-27T15:09:55.544519+00:00"
+  },
+  {
+    "id": "kb_20260527_rss_6dd9bc00",
+    "title": "Italy region: +200% tax on datacenters built in green/agricultural areas",
+    "source_url": "https://en.ilsole24ore.com/art/lombardy-introduces-increased-charges-of-up-to-200-per-cent-for-data-centre-construction-in-green-and-agricultural-areas-AI6Jp4ID",
+    "source_type": "rss",
+    "description": "Article URL: https://en.ilsole24ore.com/art/lombardy-introduces-increased-charges-of-up-to-200-per-cent-for-data-centre-construction-in-green-and-agricultural-areas-AI6Jp4ID Comments URL: https://news.ycombinator.com/item?id=48294401 Points: 64 # Comments: 71",
+    "metadata": {
+      "feed_url": "https://hnrss.org/frontpage"
+    },
+    "collected_at": "2026-05-27T15:09:55.544657+00:00"
+  },
+  {
+    "id": "kb_20260527_rss_1987758e",
+    "title": "Incident with Pull Requests, Issues, Git Operations and API Requests",
+    "source_url": "https://www.githubstatus.com/incidents/xy1tt3hs572m",
+    "source_type": "rss",
+    "description": "Article URL: https://www.githubstatus.com/incidents/xy1tt3hs572m Comments URL: https://news.ycombinator.com/item?id=48293080 Points: 140 # Comments: 122",
+    "metadata": {
+      "feed_url": "https://hnrss.org/frontpage"
+    },
+    "collected_at": "2026-05-27T15:09:55.544755+00:00"
+  },
+  {
+    "id": "kb_20260527_rss_0feab820",
+    "title": "XLIDE: VBA without excel",
+    "source_url": "https://github.com/WilliamSmithEdward/xlide_vscode",
+    "source_type": "rss",
+    "description": "Article URL: https://github.com/WilliamSmithEdward/xlide_vscode Comments URL: https://news.ycombinator.com/item?id=48293014 Points: 33 # Comments: 6",
+    "metadata": {
+      "feed_url": "https://hnrss.org/frontpage"
+    },
+    "collected_at": "2026-05-27T15:09:55.544839+00:00"
+  },
+  {
+    "id": "kb_20260527_rss_b8e74da1",
+    "title": "Private Equity Bought America's Essential Services",
+    "source_url": "https://rubbishtalk.com/economy/how-private-equity-bought-americas-essential-services/",
+    "source_type": "rss",
+    "description": "Article URL: https://rubbishtalk.com/economy/how-private-equity-bought-americas-essential-services/ Comments URL: https://news.ycombinator.com/item?id=48292941 Points: 214 # Comments: 239",
+    "metadata": {
+      "feed_url": "https://hnrss.org/frontpage"
+    },
+    "collected_at": "2026-05-27T15:09:55.544945+00:00"
+  },
+  {
+    "id": "kb_20260527_rss_3c559e75",
+    "title": "I'm Tired of Talking to AI",
+    "source_url": "https://orchidfiles.com/im-tired-of-ai-generated-answers/",
+    "source_type": "rss",
+    "description": "Article URL: https://orchidfiles.com/im-tired-of-ai-generated-answers/ Comments URL: https://news.ycombinator.com/item?id=48292224 Points: 988 # Comments: 552",
+    "metadata": {
+      "feed_url": "https://hnrss.org/frontpage"
+    },
+    "collected_at": "2026-05-27T15:09:55.545034+00:00"
+  },
+  {
+    "id": "kb_20260527_rss_3f111aee",
+    "title": "Mini Micro Fantasy Computer",
+    "source_url": "https://miniscript.org/MiniMicro/index.html#about",
+    "source_type": "rss",
+    "description": "Article URL: https://miniscript.org/MiniMicro/index.html#about Comments URL: https://news.ycombinator.com/item?id=48291947 Points: 138 # Comments: 57",
+    "metadata": {
+      "feed_url": "https://hnrss.org/frontpage"
+    },
+    "collected_at": "2026-05-27T15:09:55.545114+00:00"
+  },
+  {
+    "id": "kb_20260527_rss_54d49ffe",
+    "title": "Go: Support for Generic Methods",
+    "source_url": "https://github.com/golang/go/issues/77273",
+    "source_type": "rss",
+    "description": "Article URL: https://github.com/golang/go/issues/77273 Comments URL: https://news.ycombinator.com/item?id=48291575 Points: 80 # Comments: 53",
+    "metadata": {
+      "feed_url": "https://hnrss.org/frontpage"
+    },
+    "collected_at": "2026-05-27T15:09:55.545193+00:00"
+  },
+  {
+    "id": "kb_20260527_rss_28c6aa23",
+    "title": "All of human cooking compressed into 2 megabytes",
+    "source_url": "https://arxiv.org/abs/2605.22391",
+    "source_type": "rss",
+    "description": "Article URL: https://arxiv.org/abs/2605.22391 Comments URL: https://news.ycombinator.com/item?id=48291225 Points: 161 # Comments: 65",
+    "metadata": {
+      "feed_url": "https://hnrss.org/frontpage"
+    },
+    "collected_at": "2026-05-27T15:09:55.545272+00:00"
+  }
+]

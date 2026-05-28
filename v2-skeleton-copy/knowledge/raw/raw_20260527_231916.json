@@ -1,0 +1,44 @@
+[
+  {
+    "id": "kb_20260527_gh_2f5b9452",
+    "title": "Significant-Gravitas/AutoGPT",
+    "source_url": "https://github.com/Significant-Gravitas/AutoGPT",
+    "source_type": "github",
+    "description": "AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.",
+    "metadata": {
+      "stars": 184587,
+      "language": "Python",
+      "forks": 46222,
+      "open_issues": 437
+    },
+    "collected_at": "2026-05-27T15:19:16.246543+00:00"
+  },
+  {
+    "id": "kb_20260527_gh_978e35c6",
+    "title": "NousResearch/hermes-agent",
+    "source_url": "https://github.com/NousResearch/hermes-agent",
+    "source_type": "github",
+    "description": "The agent that grows with you",
+    "metadata": {
+      "stars": 169849,
+      "language": "Python",
+      "forks": 28330,
+      "open_issues": 14291
+    },
+    "collected_at": "2026-05-27T15:19:16.246577+00:00"
+  },
+  {
+    "id": "kb_20260527_gh_212d7171",
+    "title": "AUTOMATIC1111/stable-diffusion-webui",
+    "source_url": "https://github.com/AUTOMATIC1111/stable-diffusion-webui",
+    "source_type": "github",
+    "description": "Stable Diffusion web UI",
+    "metadata": {
+      "stars": 163298,
+      "language": "Python",
+      "forks": 30364,
+      "open_issues": 2488
+    },
+    "collected_at": "2026-05-27T15:19:16.246592+00:00"
+  }
+]

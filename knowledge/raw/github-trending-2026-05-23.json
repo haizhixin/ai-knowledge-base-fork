@@ -1,0 +1,391 @@
+{
+  "metadata": {
+    "source": "github_trending",
+    "collected_at": "2026-05-23T03:16:30Z",
+    "date_range": "2026-05-17 ~ 2026-05-23",
+    "total_items": 10,
+    "query": "topic:ai stars:>5000 pushed:>2026-05-19 sort:stars"
+  },
+  "items": [
+    {
+      "id": "kb_20260523_gh_001",
+      "title": "OpenClaw - 开源个人 AI 助手",
+      "source_url": "https://github.com/openclaw/openclaw",
+      "source_type": "github_trending",
+      "summary": "OpenClaw 是一款跨平台开源个人 AI 助手，支持任意操作系统和平台，以「龙虾之道」为理念，强调数据自主权。本周持续活跃更新，总 Star 数超 37 万，是目前 GitHub 上最受欢迎的 AI 项目之一。",
+      "content": "OpenClaw 是一款跨平台开源个人 AI 助手项目，支持任意操作系统和平台。项目以「龙虾之道（The lobster way）」为设计理念，强调用户对数据的完全自主权。本周持续活跃更新，总 Star 数已突破 37 万，Fork 数超 7.7 万。使用 TypeScript 开发，采用 MIT 开源协议。项目涵盖 AI 助手、个人数据管理、跨平台适配等核心特性，是目前 GitHub 上 Star 数最高的 AI 开源项目。",
+      "tags": [
+        "ai-assistant",
+        "open-source",
+        "cross-platform",
+        "personal-ai",
+        "privacy"
+      ],
+      "category": "tool",
+      "status": "draft",
+      "quality_score": 92,
+      "version": 1,
+      "collected_at": "2026-05-23T03:16:30Z",
+      "analyzed_at": null,
+      "published_at": null,
+      "publish_status": {},
+      "metadata": {
+        "stars": 374014,
+        "forks": 77733,
+        "language": "TypeScript",
+        "license": "MIT",
+        "topics": [
+          "ai",
+          "assistant",
+          "openclaw",
+          "own-your-data",
+          "personal"
+        ],
+        "pushed_at": "2026-05-23T03:13:27Z",
+        "created_at": "2025-11-24T10:16:47Z"
+      }
+    },
+    {
+      "id": "kb_20260523_gh_002",
+      "title": "n8n - AI 原生工作流自动化平台",
+      "source_url": "https://github.com/n8n-io/n8n",
+      "source_type": "github_trending",
+      "summary": "n8n 是 Fair-code 工作流自动化平台，原生集成 AI 能力，支持可视化搭建与自定义代码，可自托管或云端部署，提供 400+ 集成。本周活跃更新，Star 数近 19 万，已集成 MCP 客户端/服务端支持。",
+      "content": "n8n 是一款 Fair-code 许可的工作流自动化平台，原生集成 AI 能力。支持可视化构建与自定义代码混合开发模式，提供自托管和云端两种部署方式，拥有 400+ 集成连接器。本周持续活跃更新，总 Star 数达 189,326，Fork 数 57,922。使用 TypeScript 开发，已集成 MCP 客户端和服务端支持，可便捷接入 AI Agent 生态。项目涵盖低代码/无代码、工作流自动化、API 集成等核心能力。",
+      "tags": [
+        "workflow",
+        "automation",
+        "ai",
+        "low-code",
+        "mcp"
+      ],
+      "category": "framework",
+      "status": "draft",
+      "quality_score": 90,
+      "version": 1,
+      "collected_at": "2026-05-23T03:16:30Z",
+      "analyzed_at": null,
+      "published_at": null,
+      "publish_status": {},
+      "metadata": {
+        "stars": 189326,
+        "forks": 57922,
+        "language": "TypeScript",
+        "license": "NOASSERTION",
+        "topics": [
+          "ai",
+          "automation",
+          "mcp",
+          "low-code",
+          "workflow"
+        ],
+        "pushed_at": "2026-05-22T23:18:20Z",
+        "created_at": "2019-06-22T09:24:21Z"
+      }
+    },
+    {
+      "id": "kb_20260523_gh_003",
+      "title": "Hermes Agent - 与你共同成长的 AI Agent",
+      "source_url": "https://github.com/NousResearch/hermes-agent",
+      "source_type": "github_trending",
+      "summary": "NousResearch 推出的 Hermes Agent 是一款「与你共同成长」的 AI Agent，支持 Claude Code、OpenClaw、Codex 等多种 AI 编码工具。本周活跃更新，Star 数超 16.3 万，是 Agent 领域的新星。",
+      "content": "Hermes Agent 由 NousResearch 推出，定位为「与你共同成长的 Agent」。项目支持与 Claude Code、OpenClaw、Codex 等多种 AI 编码工具深度集成，提供统一的 Agent 编排能力。本周持续活跃更新，总 Star 数达 163,263，Fork 数 26,722。使用 Python 开发，采用 MIT 开源协议。项目涵盖 AI Agent、多模型支持（OpenAI、Claude、ChatGPT）、Agent 编排等核心特性，是当前 Agent 领域增长最快的项目之一。",
+      "tags": [
+        "ai-agent",
+        "hermes",
+        "nous-research",
+        "multi-model",
+        "agent-framework"
+      ],
+      "category": "framework",
+      "status": "draft",
+      "quality_score": 88,
+      "version": 1,
+      "collected_at": "2026-05-23T03:16:30Z",
+      "analyzed_at": null,
+      "published_at": null,
+      "publish_status": {},
+      "metadata": {
+        "stars": 163263,
+        "forks": 26722,
+        "language": "Python",
+        "license": "MIT",
+        "topics": [
+          "ai-agent",
+          "claude-code",
+          "hermes",
+          "llm",
+          "openai"
+        ],
+        "pushed_at": "2026-05-23T02:59:27Z",
+        "created_at": "2025-07-22T22:22:28Z"
+      }
+    },
+    {
+      "id": "kb_20260523_gh_004",
+      "title": "Dify - 生产级 Agentic 工作流开发平台",
+      "source_url": "https://github.com/langgenius/dify",
+      "source_type": "github_trending",
+      "summary": "Dify 是面向生产环境的 Agentic 工作流开发平台，支持低代码/无代码方式构建 AI 应用。本周持续迭代，Star 数超 14.2 万，已集成 MCP 协议和 RAG 能力。",
+      "content": "Dify 是一款面向生产环境的 Agentic 工作流开发平台，支持低代码/无代码方式快速构建 AI 应用。本周持续迭代更新，总 Star 数达 142,288，Fork 数 22,379。使用 TypeScript 开发，集成 Agent、Agentic AI、Agentic Framework、Agentic Workflow 等核心能力，支持 GPT-4、Gemini、RAG、MCP 协议。项目为开发者提供从原型到生产的全流程支持，是 LLM 应用开发领域最受欢迎的开源平台之一。",
+      "tags": [
+        "dify",
+        "agentic-workflow",
+        "low-code",
+        "rag",
+        "mcp"
+      ],
+      "category": "framework",
+      "status": "draft",
+      "quality_score": 91,
+      "version": 1,
+      "collected_at": "2026-05-23T03:16:30Z",
+      "analyzed_at": null,
+      "published_at": null,
+      "publish_status": {},
+      "metadata": {
+        "stars": 142288,
+        "forks": 22379,
+        "language": "TypeScript",
+        "license": "NOASSERTION",
+        "topics": [
+          "agent",
+          "agentic-ai",
+          "mcp",
+          "rag",
+          "workflow"
+        ],
+        "pushed_at": "2026-05-23T03:10:21Z",
+        "created_at": "2023-04-12T07:40:24Z"
+      }
+    },
+    {
+      "id": "kb_20260523_gh_005",
+      "title": "Open WebUI - 友好的 AI 交互界面",
+      "source_url": "https://github.com/open-webui/open-webui",
+      "source_type": "github_trending",
+      "summary": "Open WebUI 是一款用户友好的 AI 交互界面，支持 Ollama、OpenAI API 等多种后端。本周活跃更新，Star 数近 13.8 万，集成 MCP 和 RAG 能力，支持自托管部署。",
+      "content": "Open WebUI 是一款用户友好的 AI 交互界面项目，支持 Ollama、OpenAI API 等多种 LLM 后端接入。本周活跃更新，总 Star 数达 138,277，Fork 数 19,771。使用 Python 开发，集成 MCP 协议、RAG 检索增强生成、自托管部署等核心特性。项目为用户提供开箱即用的 LLM 交互体验，是本地大模型部署和使用的首选前端工具之一。",
+      "tags": [
+        "llm-ui",
+        "ollama",
+        "openai",
+        "rag",
+        "self-hosted"
+      ],
+      "category": "tool",
+      "status": "draft",
+      "quality_score": 89,
+      "version": 1,
+      "collected_at": "2026-05-23T03:16:30Z",
+      "analyzed_at": null,
+      "published_at": null,
+      "publish_status": {},
+      "metadata": {
+        "stars": 138277,
+        "forks": 19771,
+        "language": "Python",
+        "license": "NOASSERTION",
+        "topics": [
+          "ai",
+          "llm",
+          "mcp",
+          "ollama",
+          "rag"
+        ],
+        "pushed_at": "2026-05-22T09:54:31Z",
+        "created_at": "2023-10-06T22:08:27Z"
+      }
+    },
+    {
+      "id": "kb_20260523_gh_006",
+      "title": "LangChain - Agent 工程平台",
+      "source_url": "https://github.com/langchain-ai/langchain",
+      "source_type": "github_trending",
+      "summary": "LangChain 定位为 Agent 工程平台，提供 AI Agent 开发的全栈框架。本周活跃更新，Star 数超 13.7 万，支持 LangGraph 多 Agent 编排、RAG、Pydantic 数据验证等。",
+      "content": "LangChain 定位为 Agent 工程平台，为 AI Agent 开发提供全栈框架支持。本周持续活跃更新，总 Star 数达 137,427，Fork 数 22,733。使用 Python 开发，采用 MIT 开源协议。项目核心能力包括 Agent 开发、LangGraph 多 Agent 编排、RAG 检索增强生成、Pydantic 数据验证、多模型支持（OpenAI、Anthropic、Gemini）等。作为 LLM 应用开发领域的基础设施级项目，LangChain 持续引领 Agent 工程化方向。",
+      "tags": [
+        "langchain",
+        "langgraph",
+        "agent",
+        "rag",
+        "multi-agent"
+      ],
+      "category": "framework",
+      "status": "draft",
+      "quality_score": 90,
+      "version": 1,
+      "collected_at": "2026-05-23T03:16:30Z",
+      "analyzed_at": null,
+      "published_at": null,
+      "publish_status": {},
+      "metadata": {
+        "stars": 137427,
+        "forks": 22733,
+        "language": "Python",
+        "license": "MIT",
+        "topics": [
+          "agents",
+          "langchain",
+          "langgraph",
+          "rag",
+          "multiagent"
+        ],
+        "pushed_at": "2026-05-23T03:13:37Z",
+        "created_at": "2022-10-17T02:58:36Z"
+      }
+    },
+    {
+      "id": "kb_20260523_gh_007",
+      "title": "Claude Mem - Agent 跨会话持久化记忆",
+      "source_url": "https://github.com/thedotmack/claude-mem",
+      "source_type": "github_trending",
+      "summary": "Claude Mem 为所有 AI Agent 提供跨会话持久化上下文能力，自动捕获、压缩并注入会话记忆。支持 Claude Code、OpenClaw、Codex、Gemini 等多种 Agent。本周 Star 数超 7.7 万，增长迅速。",
+      "content": "Claude Mem 是一款为 AI Agent 提供跨会话持久化上下文的开源项目。它能自动捕获 Agent 在会话中的所有行为，利用 AI 压缩后在未来会话中注入相关上下文。支持 Claude Code、OpenClaw、Codex、Gemini、Hermes、Copilot、OpenCode 等多种 AI Agent。本周持续增长，总 Star 数达 77,522，Fork 数 6,681。使用 TypeScript 开发，采用 Apache-2.0 协议。项目核心特性包括 AI 记忆引擎、ChromaDB 向量存储、嵌入检索、SQLite 本地存储等，解决了 AI Agent 会话记忆丢失的核心痛点。",
+      "tags": [
+        "ai-memory",
+        "claude-code",
+        "rag",
+        "persistent-context",
+        "agent"
+      ],
+      "category": "tool",
+      "status": "draft",
+      "quality_score": 87,
+      "version": 1,
+      "collected_at": "2026-05-23T03:16:30Z",
+      "analyzed_at": null,
+      "published_at": null,
+      "publish_status": {},
+      "metadata": {
+        "stars": 77522,
+        "forks": 6681,
+        "language": "TypeScript",
+        "license": "Apache-2.0",
+        "topics": [
+          "ai-memory",
+          "claude-code",
+          "embeddings",
+          "rag",
+          "sqlite"
+        ],
+        "pushed_at": "2026-05-21T10:26:19Z",
+        "created_at": "2025-08-31T20:50:03Z"
+      }
+    },
+    {
+      "id": "kb_20260523_gh_008",
+      "title": "LobeHub - 首席 Agent 运营官",
+      "source_url": "https://github.com/lobehub/lobehub",
+      "source_type": "github_trending",
+      "summary": "LobeHub 定位为首席 Agent 运营官（CAO），将 Agent 组织为 7×24 运营团队，支持雇佣、调度和汇报。本周活跃更新，Star 数超 7.7 万，集成 MCP 和知识库能力。",
+      "content": "LobeHub 定位为首席 Agent 运营官（Chief Agent Operator），将多个 AI Agent 组织为 7×24 全天候运营团队，支持 Agent 雇佣、调度和汇报。本周持续活跃更新，总 Star 数达 77,553，Fork 数 15,263。使用 TypeScript 开发，集成 MCP 协议、知识库、技能系统等核心能力，支持 Claude、DeepSeek、Gemini、GPT、OpenAI 等多种模型。项目开创性地将 Agent 协作模式从单兵作战升级为团队运营，是 Agent 编排领域的重要创新。",
+      "tags": [
+        "agent-orchestration",
+        "cao",
+        "mcp",
+        "knowledge-base",
+        "multi-agent"
+      ],
+      "category": "framework",
+      "status": "draft",
+      "quality_score": 88,
+      "version": 1,
+      "collected_at": "2026-05-23T03:16:30Z",
+      "analyzed_at": null,
+      "published_at": null,
+      "publish_status": {},
+      "metadata": {
+        "stars": 77553,
+        "forks": 15263,
+        "language": "TypeScript",
+        "license": "NOASSERTION",
+        "topics": [
+          "agent",
+          "cao",
+          "mcp",
+          "knowledge-base",
+          "skills"
+        ],
+        "pushed_at": "2026-05-23T02:57:21Z",
+        "created_at": "2023-05-21T07:19:12Z"
+      }
+    },
+    {
+      "id": "kb_20260523_gh_009",
+      "title": "RAGFlow - 领先的开源 RAG 引擎",
+      "source_url": "https://github.com/infiniflow/ragflow",
+      "source_type": "github_trending",
+      "summary": "RAGFlow 是领先的开源 RAG 引擎，融合 RAG 与 Agent 能力，为 LLM 提供优质上下文层。本周活跃更新，Star 数超 8.1 万，支持 Agentic RAG 和上下文引擎。",
+      "content": "RAGFlow 是一款领先的开源 RAG（检索增强生成）引擎，将前沿 RAG 技术与 Agent 能力融合，为 LLM 创造更优质的上下文层。本周持续活跃更新，总 Star 数达 81,059，Fork 数 9,286。使用 Python 开发，采用 Apache-2.0 协议。项目核心特性包括 Agentic AI、Agentic Retrieval、Agentic Search、AI Agent、上下文引擎和上下文管理等，是 RAG 领域最活跃的开源项目。",
+      "tags": [
+        "rag",
+        "agentic-rag",
+        "context-engine",
+        "llm",
+        "retrieval"
+      ],
+      "category": "framework",
+      "status": "draft",
+      "quality_score": 89,
+      "version": 1,
+      "collected_at": "2026-05-23T03:16:30Z",
+      "analyzed_at": null,
+      "published_at": null,
+      "publish_status": {},
+      "metadata": {
+        "stars": 81059,
+        "forks": 9286,
+        "language": "Python",
+        "license": "Apache-2.0",
+        "topics": [
+          "agentic-ai",
+          "agentic-retrieval",
+          "rag",
+          "context-engine",
+          "llm-apps"
+        ],
+        "pushed_at": "2026-05-22T13:50:21Z",
+        "created_at": "2023-12-12T06:13:13Z"
+      }
+    },
+    {
+      "id": "kb_20260523_gh_010",
+      "title": "Deer Flow - 字节跳动开源长周期 SuperAgent",
+      "source_url": "https://github.com/bytedance/deer-flow",
+      "source_type": "github_trending",
+      "summary": "字节跳动推出的 Deer Flow 是开源长周期 SuperAgent 框架，支持研究、编码和创作任务。集成沙箱、记忆、工具、技能、子 Agent 和消息网关，本周 Star 数近 7 万。",
+      "content": "Deer Flow 是字节跳动推出的开源长周期 SuperAgent 框架，能够处理从分钟级到小时级的不同复杂度任务。项目集成沙箱环境、持久记忆、工具调用、技能系统、子 Agent 和消息网关等核心能力。本周持续活跃更新，总 Star 数达 69,175，Fork 数 9,262。使用 Python 开发，采用 MIT 开源协议。项目基于 LangChain 和 LangGraph 构建，支持 Deep Research、Multi-Agent 协作、播客生成等多种应用场景，是长周期 Agent 任务处理领域的重要创新。",
+      "tags": [
+        "superagent",
+        "multi-agent",
+        "langgraph",
+        "bytedance",
+        "deep-research"
+      ],
+      "category": "framework",
+      "status": "draft",
+      "quality_score": 90,
+      "version": 1,
+      "collected_at": "2026-05-23T03:16:30Z",
+      "analyzed_at": null,
+      "published_at": null,
+      "publish_status": {},
+      "metadata": {
+        "stars": 69175,
+        "forks": 9262,
+        "language": "Python",
+        "license": "MIT",
+        "topics": [
+          "agent",
+          "agentic-framework",
+          "langgraph",
+          "multi-agent",
+          "superagent"
+        ],
+        "pushed_at": "2026-05-22T16:10:59Z",
+        "created_at": "2025-05-07T02:50:19Z"
+      }
+    }
+  ]
+}

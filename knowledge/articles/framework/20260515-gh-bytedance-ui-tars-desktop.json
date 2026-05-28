@@ -1,0 +1,30 @@
+{
+  "id": "kb_20260515_gh_004",
+  "title": "bytedance/UI-TARS-desktop - 多模态 AI Agent 全栈方案",
+  "source_url": "https://github.com/bytedance/UI-TARS-desktop",
+  "source_type": "github_trending",
+  "summary": "字节跳动开源的多模态 AI Agent 全栈解决方案，连接前沿 AI 模型与 Agent 基础设施，支持桌面端 AI Agent 应用快速构建。",
+  "content": "字节跳动开源的多模态 AI Agent 全栈解决方案，代号 UI-TARS。该项目连接前沿 AI 模型与 Agent 基础设施，提供桌面端 AI Agent 应用的完整构建能力。核心特性包括：多模态感知与交互、跨平台桌面应用支持、与企业内部系统的深度集成能力。作为字节在 AI Agent 领域的重要开源贡献，为构建桌面端 AI 助手提供了参考实现。",
+  "tags": ["agent", "multimodal", "desktop", "bytedance", "framework"],
+  "category": "framework",
+  "status": "draft",
+  "quality_score": 70,
+  "version": 1,
+  "collected_at": "2026-05-15T08:00:00Z",
+  "analyzed_at": "2026-05-15T09:00:00Z",
+  "published_at": null,
+  "publish_status": {},
+  "metadata": {
+    "stars": 33935,
+    "language": "TypeScript",
+    "author": "bytedance",
+    "highlights": [
+      "字节跳动官方开源，企业级质量",
+      "多模态 AI Agent 全栈方案",
+      "支持桌面端应用快速构建",
+      "与字节内部 AI 基础设施深度集成"
+    ],
+    "score": 7,
+    "score_reason": "大厂开源的全栈方案，适合需要构建桌面 AI Agent 的团队参考"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "id": "kb_20260515_gh_005",
+  "title": "Hmbown/DeepSeek-TUI - DeepSeek 终端编码 Agent",
+  "source_url": "https://github.com/Hmbown/DeepSeek-TUI",
+  "source_type": "github_trending",
+  "summary": "DeepSeek 模型的终端用户界面实现，支持在命令行直接调用 DeepSeek 系列模型进行代码生成和辅助开发。",
+  "content": "DeepSeek 模型的终端用户界面（TUI）实现，为开发者提供在命令行直接调用 DeepSeek 系列 AI 模型的能力。项目支持代码生成、代码补全、技术问答等开发辅助场景，提供流畅的终端交互体验。对于习惯命令行工作流的开发者，无需切换到浏览器或 IDE 即可获得 DeepSeek 强大的代码辅助能力，显著提升开发效率。",
+  "tags": ["deepseek", "tui", "terminal", "code-assistant", "tool"],
+  "category": "tool",
+  "status": "draft",
+  "quality_score": 60,
+  "version": 1,
+  "collected_at": "2026-05-15T08:00:00Z",
+  "analyzed_at": "2026-05-15T09:00:00Z",
+  "published_at": null,
+  "publish_status": {},
+  "metadata": {
+    "stars": 29049,
+    "language": "Python",
+    "author": "Hmbown",
+    "highlights": [
+      "原生终端体验，无需离开命令行",
+      "支持 DeepSeek 全系列模型",
+      "流畅的 TUI 交互设计",
+      "适合命令行重度用户"
+    ],
+    "score": 6,
+    "score_reason": "解决特定场景痛点，但受众相对局限（命令行重度用户）"
+  }
+}

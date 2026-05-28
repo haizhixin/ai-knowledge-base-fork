@@ -1,0 +1,70 @@
+# RSS 数据源配置
+# enabled: true 表示启用采集，false 表示禁用
+
+sources:
+  # ========== 综合技术 ==========
+  - name: hacker_news_best
+    url: https://hnrss.org/best?q=ai+OR+llm+OR+agent&points=100
+    category: tech_general
+    enabled: true
+    description: Hacker News Best (AI 相关，100+ points)
+
+  - name: lobsters_ai_ml
+    url: https://lobste.rs/t/ai,ml.rss
+    category: tech_general
+    enabled: true
+    description: Lobsters AI/ML 标签
+
+  # ========== AI 研究 ==========
+  - name: arxiv_cs_ai
+    url: http://export.arxiv.org/api/query?search_query=cat:cs.AI&start=0&max_results=50&sortBy=submittedDate&sortOrder=descending
+    category: ai_research
+    enabled: false  # 量大，需人工筛选后启用
+    description: arXiv cs.AI 最新论文
+
+  # ========== 公司博客 ==========
+  - name: openai_blog
+    url: https://openai.com/blog/rss.xml
+    category: company_blog
+    enabled: true
+    description: OpenAI 官方博客
+
+  - name: anthropic_research
+    url: https://www.anthropic.com/research/rss.xml
+    category: company_blog
+    enabled: false  # 需确认 RSS 可用性
+    description: Anthropic Research 博客
+
+  - name: huggingface_blog
+    url: https://huggingface.co/blog/feed.xml
+    category: company_blog
+    enabled: true
+    description: Hugging Face 博客
+
+  # ========== 中文社区 ==========
+  - name: jiqrzhixin
+    url: https://www.jiqizhixin.com/rss
+    category: zh_community
+    enabled: false  # 需确认 RSS 可用性
+    description: 机器之心
+
+  - name: liangziwei
+    url: https://www.qbitai.com/feed
+    category: zh_community
+    enabled: false  # 需确认 RSS 可用性
+    description: 量子位
+
+# 分类定义
+categories:
+  tech_general:
+    display_name: 综合技术
+    priority: 1
+  ai_research:
+    display_name: AI 研究
+    priority: 2
+  company_blog:
+    display_name: 公司博客
+    priority: 3
+  zh_community:
+    display_name: 中文社区
+    priority: 4

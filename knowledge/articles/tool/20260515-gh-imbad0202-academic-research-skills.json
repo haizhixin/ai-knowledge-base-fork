@@ -1,0 +1,30 @@
+{
+  "id": "kb_20260515_gh_010",
+  "title": "Imbad0202/academic-research-skills - 学术研究技能套件",
+  "source_url": "https://github.com/Imbad0202/academic-research-skills",
+  "source_type": "github_trending",
+  "summary": "Claude Code 学术研究技能套件，提供研究→撰写→审查→修订→定稿的完整学术写作工作流。",
+  "content": "Claude Code 学术研究技能套件，为科研人员提供完整的学术写作 AI 辅助工作流。项目覆盖研究→撰写→审查→修订→定稿的完整学术写作流程，每个环节都有对应的 Claude Code 技能模板。对于需要高效产出学术论文的研究人员，该项目提供了可落地的 AI 辅助方案，显著提升学术写作效率。",
+  "tags": ["academic", "writing", "research", "workflow", "tool"],
+  "category": "tool",
+  "status": "draft",
+  "quality_score": 50,
+  "version": 1,
+  "collected_at": "2026-05-15T08:00:00Z",
+  "analyzed_at": "2026-05-15T09:00:00Z",
+  "published_at": null,
+  "publish_status": {},
+  "metadata": {
+    "stars": 7221,
+    "language": "Python",
+    "author": "Imbad0202",
+    "highlights": [
+      "完整的学术写作工作流覆盖",
+      "研究到定稿全流程支持",
+      "与 Claude Code 深度集成",
+      "适合科研人员使用"
+    ],
+    "score": 5,
+    "score_reason": "针对特定人群（科研人员）有用，但受众有限，项目成熟度待验证"
+  }
+}

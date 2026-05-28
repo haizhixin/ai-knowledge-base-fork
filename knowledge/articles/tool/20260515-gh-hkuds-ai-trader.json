@@ -1,0 +1,30 @@
+{
+  "id": "kb_20260515_gh_006",
+  "title": "HKUDS/AI-Trader - 全自动化 Agent 原生交易系统",
+  "source_url": "https://github.com/HKUDS/AI-Trader",
+  "source_type": "github_trending",
+  "summary": "香港大学数据科学实验室推出的 100% 全自动化 Agent 原生交易系统，利用 AI Agent 实现金融交易的自主决策与执行。",
+  "content": "香港大学数据科学实验室（HKUDS）推出的全自动化 Agent 原生交易系统。该项目实现 100% AI 驱动的金融交易决策与执行，利用 AI Agent 进行市场分析、策略制定、风险控制和订单执行。作为学术研究项目，它展示了 AI Agent 在金融领域的应用潜力，为量化交易研究提供了新的范式参考。",
+  "tags": ["agent", "trading", "finance", "automation", "research"],
+  "category": "tool",
+  "status": "draft",
+  "quality_score": 60,
+  "version": 1,
+  "collected_at": "2026-05-15T08:00:00Z",
+  "analyzed_at": "2026-05-15T09:00:00Z",
+  "published_at": null,
+  "publish_status": {},
+  "metadata": {
+    "stars": 17223,
+    "language": "Python",
+    "author": "HKUDS",
+    "highlights": [
+      "学术机构出品，理论基础扎实",
+      "100% 全自动化 Agent 原生设计",
+      "覆盖交易决策全流程",
+      "金融 AI 应用前沿探索"
+    ],
+    "score": 6,
+    "score_reason": "学术价值高，但金融交易风险大，不建议直接生产使用，适合研究参考"
+  }
+}

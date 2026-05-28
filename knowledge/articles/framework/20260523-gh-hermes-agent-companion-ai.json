@@ -1,0 +1,27 @@
+{
+  "id": "kb_20260523_gh_006",
+  "title": "Hermes Agent — 伴随式AI代理",
+  "source_url": "https://github.com/NousResearch/hermes-agent",
+  "source_type": "github_trending",
+  "summary": "NousResearch推出的Hermes Agent是伴随式AI代理的代表性项目，核心特色是「伴随式」交互模式——Agent能持续观察上下文并主动识别协助时机。持续学习机制使Agent从每次交互中积累用户偏好和领域知识，逐步提升个性化服务水平。支持多模型后端，提供完整的工具调用、记忆管理和任务规划能力。",
+  "content": "AI Agent正从「任务触发式」向「伴随式」演进——用户不再需要每次明确下达指令，Agent能够基于上下文和历史行为主动提供建议与协助。NousResearch推出的Hermes Agent是这一方向的代表性项目，将持续学习能力引入AI代理架构。Hermes Agent采用Python开发，核心特色是「伴随式」交互模式。不同于传统Agent的请求-响应模式，Hermes能够在用户工作过程中持续观察上下文，主动识别可协助的时机。其持续学习机制使Agent能够从每次交互中积累用户偏好和领域知识，逐步提升个性化服务水平。技术上支持多模型后端（Nous自研模型、GPT、Claude等），用户可根据延迟和成本需求灵活选择。Agent框架提供完整的工具调用、记忆管理和任务规划能力，开发者可在此基础上构建特定领域的伴随式助手。伴随式AI代理代表了人机协作的下一阶段——从被动工具变为主动伙伴。163K Star表明社区对这一愿景的高度期待。若持续学习机制可靠落地，将显著改变开发者和知识工作者的日常工作模式。Hermes Agent提出了AI Agent演进的重要方向——伴随式交互与持续学习。技术愿景具有前瞻性，但持续学习的效果和安全性仍需大量实践验证，值得持续关注其发展。",
+  "tags": ["hermes", "agent", "companion", "continuous-learning", "nousresearch"],
+  "category": "framework",
+  "status": "draft",
+  "quality_score": 70,
+  "version": 1,
+  "collected_at": "2026-05-23T08:00:00Z",
+  "analyzed_at": "2026-05-23T10:00:00Z",
+  "published_at": null,
+  "publish_status": {},
+  "metadata": {
+    "stars": 163268,
+    "language": "Python",
+    "highlights": [
+      "伴随式交互模式，主动识别协助时机",
+      "持续学习机制，积累用户偏好和领域知识",
+      "多模型后端支持，灵活选择模型",
+      "NousResearch出品，社区高度期待"
+    ]
+  }
+}

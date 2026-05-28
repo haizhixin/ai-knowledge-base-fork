@@ -1,0 +1,237 @@
+{
+  "source": "github_trending",
+  "skill": "tech-summary",
+  "analyzed_at": "2026-05-24T08:30:00Z",
+  "trends": {
+    "common_themes": [
+      "AI Agent 框架化：多项目聚焦 Agent 开发工具链",
+      "多模型适配：支持 OpenAI/Claude/Gemini 等多后端成标配",
+      "低代码/可视化：Langflow、ComfyUI 等降低 AI 应用门槛",
+      "RAG 工程化：RAGFlow、vLLM 等优化检索和推理性能"
+    ],
+    "new_concepts": [
+      "Agent Skills：Anthropic 推动的可复用代理技能标准",
+      "Spec-Driven Development：规格文档驱动 AI 编程的新范式",
+      "Agentic RAG：融合 Agent 能力的增强检索架构"
+    ],
+    "relationships": [
+      {
+        "type": "competition",
+        "projects": ["langchain-ai/langchain", "langflow-ai/langflow"],
+        "note": "LangChain 提供底层框架，Langflow 提供可视化上层，既有合作也有功能重叠"
+      },
+      {
+        "type": "competition",
+        "projects": ["infiniflow/ragflow", "VectifyAI/PageIndex"],
+        "note": "RAG 引擎竞争，RAGFlow 主打 Agent 融合，PageIndex 主打推理增强"
+      },
+      {
+        "type": "complement",
+        "projects": ["vllm-project/vllm", "langchain-ai/langchain"],
+        "note": "vLLM 提供高性能推理，LangChain 提供应用层封装，常组合使用"
+      },
+      {
+        "type": "competition",
+        "projects": ["Significant-Gravitas/AutoGPT", "NousResearch/hermes-agent"],
+        "note": "自主 Agent 平台竞争，AutoGPT 更成熟，Hermes 更强调可成长性"
+      }
+    ]
+  },
+  "items": [
+    {
+      "name": "Significant-Gravitas/AutoGPT",
+      "url": "https://github.com/Significant-Gravitas/AutoGPT",
+      "summary": "开源自主 Agent 平台标杆，184k Star 验证市场认可度。",
+      "highlights": [
+        "首个破圈的自主 AI 代理项目，定义了 Agent 自主执行范式",
+        "支持多 LLM 后端和工具插件生态",
+        "提供 Workbench 可视化管理界面"
+      ],
+      "score": 9,
+      "score_reason": "开创性项目，定义了自主 Agent 品类，Star 数证明行业影响力，但框架选择增多后创新放缓",
+      "suggested_tags": ["autonomous-agent", "llm", "framework", "openai"]
+    },
+    {
+      "name": "NousResearch/hermes-agent",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "summary": "可成长的 Agent 框架，支持 Claude/OpenAI 多模型。",
+      "highlights": [
+        "强调 Agent 的持续学习和成长能力",
+        "原生支持 Claude Code、OpenAI Codex 等新平台",
+        "165k Star 反映社区对 Agent 工具链的强烈需求"
+      ],
+      "score": 8,
+      "score_reason": "创新的可成长概念，多模型支持到位，直接有助于 Agent 开发落地",
+      "suggested_tags": ["ai-agent", "claude", "multi-model", "framework"]
+    },
+    {
+      "name": "huggingface/transformers",
+      "url": "https://github.com/huggingface/transformers",
+      "summary": "AI 模型开发的事实标准库，覆盖文本/视觉/多模态。",
+      "highlights": [
+        "支持 100+ 预训练模型架构，包括 DeepSeek、Qwen、Gemma 等最新模型",
+        "统一的 API 支持 PyTorch/TensorFlow/JAX",
+        "Hugging Face Hub 生态无缝集成"
+      ],
+      "score": 10,
+      "score_reason": "行业基础设施级别，几乎所有 AI 项目都依赖，持续引领模型标准化进程",
+      "suggested_tags": ["transformer", "nlp", "deep-learning", "model-hub"]
+    },
+    {
+      "name": "langflow-ai/langflow",
+      "url": "https://github.com/langflow-ai/langlangflow",
+      "summary": "可视化 Agent 构建平台，拖拽式设计工作流。",
+      "highlights": [
+        "基于 React Flow 的可视化编辑器",
+        "支持多模型切换和自定义组件",
+        "149k Star 验证低代码 AI 的市场价值"
+      ],
+      "score": 8,
+      "score_reason": "大幅降低 Agent 开发门槛，对非技术用户友好，但高度封装带来定制化限制",
+      "suggested_tags": ["visual-agent", "low-code", "langchain", "workflow"]
+    },
+    {
+      "name": "anthropics/skills",
+      "url": "https://github.com/anthropics/skills",
+      "summary": "Anthropic 官方 Agent Skills 标准，定义可复用技能。",
+      "highlights": [
+        "官方定义的 Agent 技能规范，推动生态标准化",
+        "提供开箱即用的技能模板库",
+        "140k Star 反映开发者对 Agent 技能复用的强烈需求"
+      ],
+      "score": 8,
+      "score_reason": "官方背书的技能标准，直接有助于 Claude Code 等平台的能力扩展",
+      "suggested_tags": ["agent-skills", "claude", "standardization", "anthropic"]
+    },
+    {
+      "name": "open-webui/open-webui",
+      "url": "https://github.com/open-webui/open-webui",
+      "summary": "自托管 AI 聊天界面，支持 Ollama/OpenAI 后端。",
+      "highlights": [
+        "内置 RAG、MCP 功能，开箱即用",
+        "支持多用户和权限管理",
+        "Docker 一键部署"
+      ],
+      "score": 7,
+      "score_reason": "满足私有化 AI 助手需求，部署简单，但功能深度不如商业产品",
+      "suggested_tags": ["llm-ui", "self-hosted", "ollama", "rag"]
+    },
+    {
+      "name": "langchain-ai/langchain",
+      "url": "https://github.com/langchain-ai/langchain",
+      "summary": "Agent 工程平台，提供链式调用和 RAG 能力。",
+      "highlights": [
+        "支持 Python 和 TypeScript 双语言",
+        "LangGraph 实现 Agent 工作流状态管理",
+        "丰富的工具集成和模型适配器"
+      ],
+      "score": 8,
+      "score_reason": "LLM 应用开发的主流框架，生态成熟，但学习曲线较陡",
+      "suggested_tags": ["langchain", "agent", "rag", "framework", "llm"]
+    },
+    {
+      "name": "Comfy-Org/ComfyUI",
+      "url": "https://github.com/Comfy-Org/ComfyUI",
+      "summary": "模块化 Stable Diffusion 工作流设计器。",
+      "highlights": [
+        "节点式可视化工作流，支持复杂图像生成管线",
+        "丰富的自定义节点生态",
+        "支持 ControlNet、IP-Adapter 等高级特性"
+      ],
+      "score": 7,
+      "score_reason": "图像生成领域的专业工具，功能强大，但学习成本高",
+      "suggested_tags": ["stable-diffusion", "image-generation", "workflow", "visual"]
+    },
+    {
+      "name": "github/spec-kit",
+      "url": "https://github.com/github/spec-kit",
+      "summary": "规格驱动开发工具包，PRD 到代码的桥梁。",
+      "highlights": [
+        "GitHub 官方推出，与 Copilot 深度集成",
+        "支持从规格文档自动生成代码",
+        "100k+ Star 反映开发者对新开发范式的期待"
+      ],
+      "score": 7,
+      "score_reason": "创新的开发范式，但仍在早期阶段，实际效果待验证",
+      "suggested_tags": ["spec-driven", "copilot", "automation", "github"]
+    },
+    {
+      "name": "browser-use/browser-use",
+      "url": "https://github.com/browser-use/browser-use",
+      "summary": "让 Agent 操作浏览器的自动化工具。",
+      "highlights": [
+        "基于 Playwright 的浏览器自动化",
+        "支持复杂的网页交互流程",
+        "95k Star 验证 Agent 工具链需求"
+      ],
+      "score": 7,
+      "score_reason": "解决 Agent 与 Web 交互的实际问题，有落地价值",
+      "suggested_tags": ["browser-automation", "agent-tools", "playwright", "web-scraping"]
+    },
+    {
+      "name": "hacksider/Deep-Live-Cam",
+      "url": "https://github.com/hacksider/Deep-Live-Cam",
+      "summary": "实时人脸替换工具，单图即可换脸。",
+      "highlights": [
+        "支持摄像头实时换脸处理",
+        "仅需一张参考图即可运行",
+        "93k Star 反映娱乐和内容创作需求"
+      ],
+      "score": 5,
+      "score_reason": "技术实现有趣，但应用场景有限，需注意合规风险",
+      "suggested_tags": ["deepfake", "face-swap", "realtime", "video"]
+    },
+    {
+      "name": "infiniflow/ragflow",
+      "url": "https://github.com/infiniflow/ragflow",
+      "summary": "开源 RAG 引擎，融合 Agent 能力。",
+      "highlights": [
+        "支持多模态文档解析",
+        "Agent 化检索提升精准度",
+        "Docker 一键部署"
+      ],
+      "score": 7,
+      "score_reason": "RAG 工程化方案，适合企业知识库场景，但竞品较多",
+      "suggested_tags": ["rag", "knowledge-base", "agent", "document-parsing"]
+    },
+    {
+      "name": "vllm-project/vllm",
+      "url": "https://github.com/vllm-project/vllm",
+      "summary": "高性能 LLM 推理引擎，PagedAttention 优化显存。",
+      "highlights": [
+        "PagedAttention 技术提升显存利用率 2-4 倍",
+        "支持 DeepSeek、Qwen、Llama 等主流模型",
+        "OpenAI 兼容 API，无缝迁移"
+      ],
+      "score": 8,
+      "score_reason": "生产级推理方案，性能优异，是 LLM 部署的首选",
+      "suggested_tags": ["llm-inference", "high-performance", "deployment", "paged-attention"]
+    },
+    {
+      "name": "TauricResearch/TradingAgents",
+      "url": "https://github.com/TauricResearch/TradingAgents",
+      "summary": "多 Agent 金融交易框架，支持多策略协同。",
+      "highlights": [
+        "多 Agent 协同决策架构",
+        "支持回测和实盘交易",
+        "79k Star 反映量化社区关注"
+      ],
+      "score": 6,
+      "score_reason": "细分领域有价值，但金融场景风险高，需谨慎使用",
+      "suggested_tags": ["trading", "multi-agent", "finance", "quant"]
+    },
+    {
+      "name": "OpenHands/OpenHands",
+      "url": "https://github.com/OpenHands/OpenHands",
+      "summary": "AI 驱动开发平台，自动编写代码和测试。",
+      "highlights": [
+        "支持代码生成、调试、测试全流程",
+        "集成多种 LLM 后端",
+        "可作为 AI 程序员辅助开发"
+      ],
+      "score": 7,
+      "score_reason": "提升开发效率的实用工具，但复杂项目仍需人工介入",
+      "suggested_tags": ["ai-coding", "developer-tools", "automation", "code-generation"]
+    }
+  ]
+}

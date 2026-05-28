@@ -1,0 +1,30 @@
+{
+  "id": "kb_20260515_gh_003",
+  "title": "addyosmani/agent-skills - AI 编码 Agent 技能集合",
+  "source_url": "https://github.com/addyosmani/agent-skills",
+  "source_type": "github_trending",
+  "summary": "由 Google 工程师 Addy Osmani 维护的 AI 编码 Agent 技能集合，包含代码审查、重构、测试生成等生产级最佳实践。",
+  "content": "由 Google 工程师 Addy Osmani 发起的 AI 编码 Agent 技能集合，专注于提升 AI 辅助编程的工程质量。项目包含代码审查、智能重构、测试生成、文档编写等生产级最佳实践，每个技能都经过真实项目验证。作为前端性能优化领域的权威专家，Addy 将工程最佳实践与 AI 能力结合，为 AI 编码 Agent 提供了可落地的技能模板，显著提升 Agent 的开发辅助能力。",
+  "tags": ["agent", "code-review", "refactoring", "testing", "best-practices"],
+  "category": "framework",
+  "status": "draft",
+  "quality_score": 80,
+  "version": 1,
+  "collected_at": "2026-05-15T08:00:00Z",
+  "analyzed_at": "2026-05-15T09:00:00Z",
+  "published_at": null,
+  "publish_status": {},
+  "metadata": {
+    "stars": 41606,
+    "language": "TypeScript",
+    "author": "addyosmani",
+    "highlights": [
+      "由 Google 工程师维护，质量有保障",
+      "覆盖代码审查、重构、测试生成全流程",
+      "生产级最佳实践，可直接落地",
+      "与主流 AI 编码工具兼容"
+    ],
+    "score": 8,
+    "score_reason": "权威来源 + 生产级实践，可直接应用于 AI 辅助开发流程优化"
+  }
+}

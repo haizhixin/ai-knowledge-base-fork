@@ -1,0 +1,27 @@
+{
+  "id": "kb_20260523_gh_001",
+  "title": "OpenClaw — 跨平台个人AI助手，数据自主可控",
+  "source_url": "https://github.com/openclaw/openclaw",
+  "source_type": "github_trending",
+  "summary": "OpenClaw是跨平台、数据自主的个人AI助手解决方案，采用TypeScript开发，支持桌面与移动端部署。核心设计理念是「数据永远在用户手中」，支持连接多种本地或自托管大模型后端，用户可完全掌控模型选择与数据流向。架构采用插件化设计，社区贡献的RAG、代码助手等插件生态正在快速成长。",
+  "content": "随着个人AI助手市场的快速扩张，用户对数据隐私和自主控制的需求日益强烈。主流AI助手多依赖云端处理，用户数据不可避免地经过第三方服务器，隐私泄露风险始终存在。OpenClaw正是在这一背景下诞生，定位为跨平台、数据自主的个人AI助手解决方案。OpenClaw采用TypeScript开发，支持桌面与移动端跨平台部署，核心设计理念是「数据永远在用户手中」。项目支持连接多种本地或自托管大模型后端，用户可完全掌控模型选择与数据流向。本周该项目保持高频更新，持续优化多模型切换体验和本地知识库管理能力，社区活跃度极高。架构上采用插件化设计，用户可按需扩展功能模块，同时提供完整的API接口供开发者二次开发。OpenClaw的374K Star数表明社区对「数据自主」理念的强烈共鸣。它为个人用户和小团队提供了一个不依赖商业云服务的AI助手替代方案，降低了隐私敏感场景下的AI使用门槛。其插件生态也在快速成长，已有社区贡献的RAG、代码助手等插件。OpenClaw代表了个人AI助手领域的重要趋势——从云端依赖走向本地自主。对于重视数据隐私的开发者和组织，它是当前最值得关注的开源方案之一。",
+  "tags": ["openclaw", "ai-assistant", "data-privacy", "cross-platform", "local-model"],
+  "category": "tool",
+  "status": "draft",
+  "quality_score": 80,
+  "version": 1,
+  "collected_at": "2026-05-23T08:00:00Z",
+  "analyzed_at": "2026-05-23T10:00:00Z",
+  "published_at": null,
+  "publish_status": {},
+  "metadata": {
+    "stars": 374015,
+    "language": "TypeScript",
+    "highlights": [
+      "数据自主架构，用户完全掌控数据流向",
+      "跨平台TypeScript，支持桌面与移动端",
+      "本周高频更新，社区活跃度极高",
+      "插件化生态，RAG、代码助手等插件快速成长"
+    ]
+  }
+}

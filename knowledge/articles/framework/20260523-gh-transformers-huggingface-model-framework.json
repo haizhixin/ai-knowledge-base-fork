@@ -1,0 +1,27 @@
+{
+  "id": "kb_20260523_gh_008",
+  "title": "Transformers — HuggingFace模型框架",
+  "source_url": "https://github.com/huggingface/transformers",
+  "source_type": "github_trending",
+  "summary": "HuggingFace Transformers是深度学习领域最具影响力的开源项目之一，提供统一的模型调用接口，覆盖10万+模型。本周更新重点新增多个国产模型的原生支持（Qwen3、DeepSeek-V3等），持续扩展多模态能力。Trainer API配合PEFT库支持LoRA等参数高效微调方法，Pipeline API提供一行代码推理的便捷接口。161K Star体现其基础设施地位。",
+  "content": "HuggingFace Transformers是深度学习领域最具影响力的开源项目之一，为NLP、CV、音频等多模态任务提供了统一的模型调用接口。自2018年发布以来，它已从BERT的PyTorch实现成长为覆盖10万+模型的全栈AI框架，是AI研究者和工程师的日常基础设施。Transformers框架基于PyTorch（也支持TensorFlow和JAX），提供统一的API接口加载、微调和推理各类预训练模型。本周更新重点新增了对多个国产模型的原生支持，包括Qwen3、DeepSeek-V3等，这些模型在中文理解和推理能力上表现突出。框架持续扩展多模态能力，当前已覆盖文本、图像、视频、音频的统一建模。Trainer API提供完整的训练和微调流程，配合PEFT库支持LoRA等参数高效微调方法。Pipeline API则为常见任务提供一行代码推理的便捷接口。Transformers是AI模型生态的事实标准接口，161K Star是其基础设施地位的体现。本周新增国产模型支持，使中文AI开发者能更便捷地使用最先进的国产模型，降低了技术落地的门槛。Transformers作为AI模型生态的核心框架，其每周更新都值得关注。本周国产模型的原生集成，进一步巩固了其在全球AI工具链中的不可替代地位，对中文AI开发者尤为利好。",
+  "tags": ["transformers", "huggingface", "model-framework", "chinese-model", "peft"],
+  "category": "framework",
+  "status": "draft",
+  "quality_score": 90,
+  "version": 1,
+  "collected_at": "2026-05-23T08:00:00Z",
+  "analyzed_at": "2026-05-23T10:00:00Z",
+  "published_at": null,
+  "publish_status": {},
+  "metadata": {
+    "stars": 160888,
+    "language": "Python",
+    "highlights": [
+      "本周新增国产模型（Qwen3、DeepSeek-V3）原生支持",
+      "10万+模型生态，AI模型事实标准接口",
+      "统一API设计，PyTorch/TF/JAX多框架支持",
+      "PEFT高效微调，LoRA等参数高效方法内置"
+    ]
+  }
+}

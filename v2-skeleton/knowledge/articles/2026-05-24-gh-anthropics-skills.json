@@ -1,0 +1,19 @@
+{
+  "id": "kb_20260524_gh_005",
+  "title": "Anthropic Skills - 官方 Agent Skills 标准",
+  "source_url": "https://github.com/anthropics/skills",
+  "source_type": "github_trending",
+  "summary": "Anthropic 官方 Agent Skills 标准，定义可复用技能。官方定义的 Agent 技能规范，推动生态标准化。",
+  "content": "Anthropic 官方发布的 Agent Skills 公共仓库，提供可复用的 Claude 代理技能定义。技术亮点包括：1) 官方定义的 Agent 技能规范，推动生态标准化；2) 提供开箱即用的技能模板库；3) 140k Star 反映开发者对 Agent 技能复用的强烈需求。评分 8/10，官方背书的技能标准，直接有助于 Claude Code 等平台的能力扩展。",
+  "tags": ["agent-skills", "claude", "standardization", "anthropic", "claude-code"],
+  "category": "framework",
+  "status": "draft",
+  "quality_score": 80,
+  "collected_at": "2026-05-24T08:00:00Z",
+  "analyzed_at": "2026-05-24T08:30:00Z",
+  "metadata": {
+    "stars": 139876,
+    "language": "Python",
+    "score": 8
+  }
+}

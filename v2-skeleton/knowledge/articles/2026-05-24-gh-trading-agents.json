@@ -1,0 +1,19 @@
+{
+  "id": "kb_20260524_gh_013",
+  "title": "TradingAgents - 多 Agent 金融交易框架",
+  "source_url": "https://github.com/TauricResearch/TradingAgents",
+  "source_type": "github_trending",
+  "summary": "多 Agent 金融交易框架，支持多策略协同。多 Agent 协同决策架构，支持回测和实盘交易。",
+  "content": "TradingAgents 是基于多代理 LLM 的金融交易框架，支持多策略协同决策。技术亮点包括：1) 多 Agent 协同决策架构；2) 支持回测和实盘交易；3) 79k Star 反映量化社区关注。评分 6/10，细分领域有价值，但金融场景风险高，需谨慎使用。",
+  "tags": ["trading", "multi-agent", "finance", "quant", "llm"],
+  "category": "framework",
+  "status": "draft",
+  "quality_score": 60,
+  "collected_at": "2026-05-24T08:00:00Z",
+  "analyzed_at": "2026-05-24T08:30:00Z",
+  "metadata": {
+    "stars": 79023,
+    "language": "Python",
+    "score": 6
+  }
+}

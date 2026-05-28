@@ -1,0 +1,19 @@
+{
+  "id": "kb_20260524_gh_008",
+  "title": "ComfyUI - 模块化 Stable Diffusion 工作流设计器",
+  "source_url": "https://github.com/Comfy-Org/ComfyUI",
+  "source_type": "github_trending",
+  "summary": "模块化 Stable Diffusion 工作流设计器。节点式可视化工作流，支持复杂图像生成管线和自定义节点生态。",
+  "content": "ComfyUI 是功能强大的模块化扩散模型图形界面。技术亮点包括：1) 节点式可视化工作流，支持复杂图像生成管线；2) 丰富的自定义节点生态；3) 支持 ControlNet、IP-Adapter 等高级特性。评分 7/10，图像生成领域的专业工具，功能强大，但学习成本高。",
+  "tags": ["stable-diffusion", "image-generation", "workflow", "visual", "comfyui"],
+  "category": "tool",
+  "status": "draft",
+  "quality_score": 70,
+  "collected_at": "2026-05-24T08:00:00Z",
+  "analyzed_at": "2026-05-24T08:30:00Z",
+  "metadata": {
+    "stars": 114243,
+    "language": "Python",
+    "score": 7
+  }
+}

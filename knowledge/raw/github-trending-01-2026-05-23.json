@@ -1,0 +1,72 @@
+[
+  {
+    "title": "OpenClaw - 个人AI助手平台",
+    "url": "https://github.com/openclaw/openclaw",
+    "source": "github_trending",
+    "popularity": 374015,
+    "summary": "OpenClaw 是一款跨平台个人 AI 助手开源项目，支持任意操作系统和平台部署。项目以「龙虾之道」为理念，强调用户数据自主掌控，提供自托管方案保障隐私安全。基于 TypeScript 开发，集成了助手对话、任务自动化等核心能力，是目前 GitHub 上星标数最高的 AI 助手类项目，社区活跃度极高，本周持续保持高频更新。"
+  },
+  {
+    "title": "n8n - AI原生工作流自动化平台",
+    "url": "https://github.com/n8n-io/n8n",
+    "source": "github_trending",
+    "popularity": 189327,
+    "summary": "n8n 是一个公平代码许可的工作流自动化平台，已深度集成 AI 能力。支持可视化拖拽构建与自定义代码结合，提供 400+ 集成连接器，可自托管或云端部署。项目近期原生支持了 MCP 协议（同时作为 MCP 客户端和服务端），成为连接 AI Agent 与外部工具链的重要枢纽，是 AI 工作流编排领域最受欢迎的开源方案之一。"
+  },
+  {
+    "title": "ECC - AI Agent 性能优化系统",
+    "url": "https://github.com/affaan-m/ECC",
+    "source": "github_trending",
+    "popularity": 188568,
+    "summary": "ECC（Elastic Claude Code）是面向 AI Agent 的性能优化系统，为 Claude Code、Codex、OpenCode、Cursor 等主流编码 Agent 提供技能增强、直觉学习、记忆管理和安全防护能力。项目以研究优先的开发理念，帮助开发者提升 Agent 的执行效率和可靠性，支持 MCP 协议扩展，是本周 Agent 基础设施领域增长最快的项目之一。"
+  },
+  {
+    "title": "AutoGPT - 自主AI代理平台",
+    "url": "https://github.com/Significant-Gravitas/AutoGPT",
+    "source": "github_trending",
+    "popularity": 184463,
+    "summary": "AutoGPT 致力于让每个人都能使用和构建 AI，提供自主 Agent 所需的核心工具链。项目支持 Claude、GPT、Llama 等多种大模型后端，涵盖自主代理、Agent 编排和任务规划能力。作为最早引爆 AI Agent 浪潮的开源项目，AutoGPT 持续迭代，本周保持活跃更新，仍然是自主代理领域的标杆性项目。"
+  },
+  {
+    "title": "Ollama - 本地大模型运行引擎",
+    "url": "https://github.com/ollama/ollama",
+    "source": "github_trending",
+    "popularity": 172061,
+    "summary": "Ollama 是本地运行大语言模型的一站式引擎，支持 Kimi-K2.5、GLM-5、MiniMax、DeepSeek、gpt-oss、Qwen、Gemma 等主流开源模型。基于 Go 语言开发，提供简洁的命令行和 API 接口，可快速在本地部署和切换不同模型。项目本周新增对多款国产大模型的支持，是本地化 AI 部署的首选工具，在隐私敏感场景下价值突出。"
+  },
+  {
+    "title": "Hermes Agent - 伴随式AI代理",
+    "url": "https://github.com/NousResearch/hermes-agent",
+    "source": "github_trending",
+    "popularity": 163268,
+    "summary": "Hermes Agent 由 Nous Research 开发，定位为「与你共同成长的 Agent」。项目支持 Claude、OpenAI、OpenClaw 等多种后端，具备持续学习与进化能力，能根据用户使用习惯不断优化自身表现。基于 Python 构建，集成了 Agent SDK 和工具调用能力，是本周 Agent 生态中热度最高的新锐项目之一。"
+  },
+  {
+    "title": "Prompts.chat - AI提示词社区平台",
+    "url": "https://github.com/f/prompts.chat",
+    "source": "github_trending",
+    "popularity": 162687,
+    "summary": "Prompts.chat（原 Awesome ChatGPT Prompts）是最大规模的 AI 提示词共享与发现社区。用户可分享、发现和收藏高质量提示词，支持 ChatGPT、Claude、Gemini、GPT-4 等主流模型。项目提供自托管方案保障组织隐私，基于 Next.js 和 TypeScript 构建，是 Prompt Engineering 领域最具影响力的开源资源库，本周持续有新提示词贡献。"
+  },
+  {
+    "title": "Hugging Face Transformers - 模型定义框架",
+    "url": "https://github.com/huggingface/transformers",
+    "source": "github_trending",
+    "popularity": 160888,
+    "summary": "Transformers 是 Hugging Face 推出的最先进机器学习模型框架，覆盖文本、视觉、音频和多模态模型，同时支持推理与训练。项目集成了 DeepSeek、Gemma、GLM、Qwen 等最新模型，提供 PyTorch 原生支持，是 NLP 和大模型开发的事实标准库。本周持续快速迭代，新增对多个国产大模型的支持，保持 AI 基础设施领域的领先地位。"
+  },
+  {
+    "title": "Dify - 生产级Agent工作流平台",
+    "url": "https://github.com/langgenius/dify",
+    "source": "github_trending",
+    "popularity": 142289,
+    "summary": "Dify 是面向生产环境的 Agentic 工作流开发平台，支持低代码/无代码构建 AI 应用。集成 GPT-4、Gemini、Claude 等主流模型，原生支持 MCP 协议、RAG 检索增强和可视化工作流编排。项目基于 TypeScript 和 Python 双语言架构，提供从原型到生产的完整链路，是企业级 AI 应用开发最受欢迎的开源平台之一。"
+  },
+  {
+    "title": "Open WebUI - 友好的AI交互界面",
+    "url": "https://github.com/open-webui/open-webui",
+    "source": "github_trending",
+    "popularity": 138277,
+    "summary": "Open WebUI 是面向用户友好的 AI 交互界面，原生支持 Ollama 和 OpenAI API 兼容模型。项目集成 RAG 检索增强、MCP 协议支持，可完全自托管部署，保障数据隐私。基于 Python 构建，提供流畅的 Web 聊天体验，是本地大模型部署中最受欢迎的前端方案，本周持续更新优化用户体验和模型兼容性。"
+  }
+]

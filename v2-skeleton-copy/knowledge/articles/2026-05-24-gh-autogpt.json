@@ -1,0 +1,19 @@
+{
+  "id": "kb_20260524_gh_001",
+  "title": "AutoGPT - 开源自主 AI 代理平台",
+  "source_url": "https://github.com/Significant-Gravitas/AutoGPT",
+  "source_type": "github_trending",
+  "summary": "开源自主 Agent 平台标杆，184k Star 验证市场认可度。首个破圈的自主 AI 代理项目，定义了 Agent 自主执行范式，支持多 LLM 后端和工具插件生态。",
+  "content": "AutoGPT 是一个开创性的自主 AI 代理平台，让用户无需编程即可构建和部署 AI 代理。技术亮点包括：1) 首个破圈的自主 AI 代理项目，定义了 Agent 自主执行范式；2) 支持多 LLM 后端和工具插件生态；3) 提供 Workbench 可视化管理界面。评分 9/10，开创性项目，定义了自主 Agent 品类，Star 数证明行业影响力。",
+  "tags": ["autonomous-agent", "llm", "framework", "openai", "agent"],
+  "category": "framework",
+  "status": "draft",
+  "quality_score": 90,
+  "collected_at": "2026-05-24T08:00:00Z",
+  "analyzed_at": "2026-05-24T08:30:00Z",
+  "metadata": {
+    "stars": 184489,
+    "language": "Python",
+    "score": 9
+  }
+}

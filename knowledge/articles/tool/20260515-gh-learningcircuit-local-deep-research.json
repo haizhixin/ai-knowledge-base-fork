@@ -1,0 +1,30 @@
+{
+  "id": "kb_20260515_gh_009",
+  "title": "LearningCircuit/local-deep-research - 本地深度研究工具",
+  "source_url": "https://github.com/LearningCircuit/local-deep-research",
+  "source_type": "github_trending",
+  "summary": "本地深度研究工具，支持所有主流 LLM，集成 10+ 学术搜索引擎，全本地加密运行，注重隐私保护。",
+  "content": "本地深度研究工具，强调隐私保护和本地化运行。项目支持所有主流本地和云端 LLM（llama.cpp、Ollama、Google 等），集成 10+ 学术搜索引擎（arXiv、PubMed、Google Scholar 等），全本地加密运行。适合需要对特定领域进行深度研究、同时注重数据隐私的研究人员和开发者。",
+  "tags": ["research", "local", "privacy", "search", "tool"],
+  "category": "tool",
+  "status": "draft",
+  "quality_score": 60,
+  "version": 1,
+  "collected_at": "2026-05-15T08:00:00Z",
+  "analyzed_at": "2026-05-15T09:00:00Z",
+  "published_at": null,
+  "publish_status": {},
+  "metadata": {
+    "stars": 7608,
+    "language": "Python",
+    "author": "LearningCircuit",
+    "highlights": [
+      "全本地运行，数据隐私有保障",
+      "支持 10+ 学术搜索引擎",
+      "兼容本地和云端 LLM",
+      "本地加密存储"
+    ],
+    "score": 6,
+    "score_reason": "适合特定研究场景，但功能相对垂直，通用性有限"
+  }
+}

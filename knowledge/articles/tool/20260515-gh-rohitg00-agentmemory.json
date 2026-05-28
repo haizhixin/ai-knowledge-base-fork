@@ -1,0 +1,30 @@
+{
+  "id": "kb_20260515_gh_008",
+  "title": "rohitg00/agentmemory - Agent 持久化记忆解决方案",
+  "source_url": "https://github.com/rohitg00/agentmemory",
+  "source_type": "github_trending",
+  "summary": "基于真实世界基准测试的 AI 编码 Agent 持久化记忆解决方案，解决 Agent 长对话上下文丢失问题。",
+  "content": "基于真实世界基准测试的 AI 编码 Agent 持久化记忆解决方案。项目核心解决 Agent 在长对话中上下文丢失的问题，提供跨会话的记忆存储和检索能力。通过科学的基准测试验证方案有效性，支持多种记忆存储后端。对于需要构建长期运行 Agent 的场景，该项目提供了可靠的记忆管理参考实现。",
+  "tags": ["agent", "memory", "persistence", "benchmark", "tool"],
+  "category": "tool",
+  "status": "draft",
+  "quality_score": 60,
+  "version": 1,
+  "collected_at": "2026-05-15T08:00:00Z",
+  "analyzed_at": "2026-05-15T09:00:00Z",
+  "published_at": null,
+  "publish_status": {},
+  "metadata": {
+    "stars": 9016,
+    "language": "Python",
+    "author": "rohitg00",
+    "highlights": [
+      "基于真实世界基准测试验证",
+      "解决 Agent 长对话上下文丢失痛点",
+      "支持跨会话记忆存储",
+      "多后端存储支持"
+    ],
+    "score": 6,
+    "score_reason": "解决 Agent 记忆痛点，但项目规模较小，生态尚不成熟"
+  }
+}

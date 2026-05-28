@@ -1,0 +1,27 @@
+{
+  "id": "kb_20260523_gh_010",
+  "title": "Open WebUI — 自托管AI交互界面",
+  "source_url": "https://github.com/open-webui/open-webui",
+  "source_type": "github_trending",
+  "summary": "Open WebUI是自托管AI交互界面的标杆项目，兼容Ollama和OpenAI API两种后端。核心功能包括RAG文档问答、MCP工具集成和多用户角色权限管理。界面设计参照ChatGPT上手零门槛，支持Docker一键启动5分钟完成私有化部署。138K Star证明自托管AI界面需求广泛，与Ollama组合已成为本地AI部署标准方案。",
+  "content": "随着Ollama等本地模型运行引擎的普及，用户需要一个配套的交互界面来管理和使用本地模型。官方命令行界面缺乏对话管理、文档上传等日常使用功能，商业ChatGPT界面又不支持本地模型。Open WebUI填补了这一空白，成为自托管AI交互界面的标杆项目。Open WebUI提供Web界面的AI对话体验，兼容Ollama和OpenAI API两种后端，用户可无缝切换本地模型和云端模型。核心功能包括：RAG支持，用户可上传文档作为对话上下文，实现基于私有知识的问答；MCP工具集成，对话中可直接调用MCP协议注册的外部工具；多用户管理，支持角色权限和配额控制，适合团队使用。界面设计参照ChatGPT，上手零门槛。自托管部署方案支持Docker一键启动，5分钟即可完成私有化部署。138K Star证明了自托管AI界面的广泛需求。Open WebUI与Ollama的组合已成为本地AI部署的标准方案，为个人和团队提供了完全自主控制的AI对话体验。MCP集成使其不再只是对话界面，而是本地AI生态的交互枢纽。Open WebUI通过极低部署门槛和ChatGPT级别的交互体验，成为本地AI部署不可或缺的前端组件。RAG+MCP的集成进一步扩展了其能力边界，是从零搭建私有AI环境的首选界面方案。",
+  "tags": ["open-webui", "self-hosted", "ollama", "rag", "mcp"],
+  "category": "tool",
+  "status": "draft",
+  "quality_score": 80,
+  "version": 1,
+  "collected_at": "2026-05-23T08:00:00Z",
+  "analyzed_at": "2026-05-23T10:00:00Z",
+  "published_at": null,
+  "publish_status": {},
+  "metadata": {
+    "stars": 138277,
+    "language": "Python",
+    "highlights": [
+      "Ollama+OpenAI双后端，无缝切换本地与云端模型",
+      "RAG文档问答，基于私有知识对话",
+      "MCP工具集成，本地AI生态交互枢纽",
+      "Docker一键部署，5分钟完成私有化"
+    ]
+  }
+}

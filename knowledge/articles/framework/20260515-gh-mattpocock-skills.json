@@ -1,0 +1,30 @@
+{
+  "id": "kb_20260515_gh_001",
+  "title": "mattpocock/skills - Claude Code 技能模板集合",
+  "source_url": "https://github.com/mattpocock/skills",
+  "source_type": "github_trending",
+  "summary": "由 TypeScript 类型系统专家 Matt Pocock 发起的 Claude Code 技能集合项目，提供生产级 AI Agent 技能模板，覆盖代码生成、测试、文档等核心场景。",
+  "content": "由 TypeScript 类型系统专家 Matt Pocock 发起的 Claude Code 技能集合项目，直接从生产环境的 `.claude` 目录提炼而成。该项目提供了一套完整的 AI Agent 技能模板体系，覆盖代码生成、自动化测试、文档编写、代码审查等核心开发场景。作为构建 Claude Code 工作流的权威参考，它展示了如何将 AI 能力与工程实践深度结合，对希望提升 AI 辅助开发效率的工程师具有极高的参考价值。",
+  "tags": ["agent", "claude-code", "workflow", "best-practices", "tool"],
+  "category": "framework",
+  "status": "draft",
+  "quality_score": 80,
+  "version": 1,
+  "collected_at": "2026-05-15T08:00:00Z",
+  "analyzed_at": "2026-05-15T09:00:00Z",
+  "published_at": null,
+  "publish_status": {},
+  "metadata": {
+    "stars": 82441,
+    "language": "TypeScript",
+    "author": "mattpocock",
+    "highlights": [
+      "来自生产环境验证的真实技能模板",
+      "覆盖代码生成、测试、文档等完整开发流程",
+      "由 TypeScript 社区知名专家维护",
+      "提供可复制的 .claude 目录结构"
+    ],
+    "score": 8,
+    "score_reason": "生产级实践参考，可直接应用于 Claude Code 工作流配置，解决开发者构建 AI 辅助流程的痛点"
+  }
+}

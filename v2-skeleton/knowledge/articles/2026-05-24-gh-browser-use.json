@@ -1,0 +1,19 @@
+{
+  "id": "kb_20260524_gh_010",
+  "title": "Browser-Use - Agent 浏览器自动化工具",
+  "source_url": "https://github.com/browser-use/browser-use",
+  "source_type": "github_trending",
+  "summary": "让 Agent 操作浏览器的自动化工具。基于 Playwright 的浏览器自动化，支持复杂的网页交互流程。",
+  "content": "Browser-Use 让 AI 代理能够自动化操作网页，基于 Playwright 实现浏览器交互。技术亮点包括：1) 基于 Playwright 的浏览器自动化；2) 支持复杂的网页交互流程；3) 95k Star 验证 Agent 工具链需求。评分 7/10，解决 Agent 与 Web 交互的实际问题，有落地价值。",
+  "tags": ["browser-automation", "agent-tools", "playwright", "web-scraping", "agent"],
+  "category": "tool",
+  "status": "draft",
+  "quality_score": 70,
+  "collected_at": "2026-05-24T08:00:00Z",
+  "analyzed_at": "2026-05-24T08:30:00Z",
+  "metadata": {
+    "stars": 95267,
+    "language": "Python",
+    "score": 7
+  }
+}

@@ -1,0 +1,127 @@
+{
+  "source": "github_trending",
+  "skill": "github-trending",
+  "collected_at": "2026-05-24T08:00:00Z",
+  "items": [
+    {
+      "name": "Significant-Gravitas/AutoGPT",
+      "url": "https://github.com/Significant-Gravitas/AutoGPT",
+      "summary": "AutoGPT 是一个开源的自主 AI 代理平台，让用户无需编程即可构建和部署 AI 代理，支持多种 LLM 后端和工具集成，适合快速实现 AI 自动化任务。",
+      "stars": 184489,
+      "language": "Python",
+      "topics": ["agentic-ai", "agents", "ai", "autonomous-agents", "llm", "openai"]
+    },
+    {
+      "name": "NousResearch/hermes-agent",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "summary": "Hermes Agent 是一个可成长的 AI 代理框架，支持 Claude、OpenAI 等多种模型，提供完整的代理开发工具链，适合构建个性化的 AI 助手应用。",
+      "stars": 164796,
+      "language": "Python",
+      "topics": ["ai-agent", "anthropic", "claude", "claude-code", "llm", "openai"]
+    },
+    {
+      "name": "huggingface/transformers",
+      "url": "https://github.com/huggingface/transformers",
+      "summary": "Transformers 是 HuggingFace 推出的机器学习模型框架，支持文本、视觉、音频和多模态模型的训练与推理，是 AI 开发者的必备工具库。",
+      "stars": 160915,
+      "language": "Python",
+      "topics": ["deep-learning", "llm", "machine-learning", "nlp", "transformer"]
+    },
+    {
+      "name": "langflow-ai/langflow",
+      "url": "https://github.com/langflow-ai/langflow",
+      "summary": "Langflow 是一个可视化 AI 代理构建平台，通过拖拽式界面快速设计 Agent 工作流，支持多模型切换和自定义组件，降低 AI 应用开发门槛。",
+      "stars": 148700,
+      "language": "Python",
+      "topics": ["agents", "chatgpt", "generative-ai", "large-language-models", "multiagent"]
+    },
+    {
+      "name": "anthropics/skills",
+      "url": "https://github.com/anthropics/skills",
+      "summary": "Anthropic 官方发布的 Agent Skills 公共仓库，提供可复用的 Claude 代理技能定义，帮助开发者快速扩展 Claude Code 和其他 AI 代理的能力。",
+      "stars": 139876,
+      "language": "Python",
+      "topics": ["agent-skills"]
+    },
+    {
+      "name": "open-webui/open-webui",
+      "url": "https://github.com/open-webui/open-webui",
+      "summary": "Open WebUI 是一个用户友好的 AI 聊天界面，支持 Ollama、OpenAI 等多种后端，内置 RAG、MCP 功能，适合自建私有 AI 助手服务。",
+      "stars": 138406,
+      "language": "Python",
+      "topics": ["ai", "llm", "mcp", "ollama", "openai", "rag"]
+    },
+    {
+      "name": "langchain-ai/langchain",
+      "url": "https://github.com/langchain-ai/langchain",
+      "summary": "LangChain 是领先的 Agent 工程平台，提供链式调用、RAG、工具集成等核心能力，支持 Python 和 TypeScript，是企业级 AI 应用的首选框架。",
+      "stars": 137509,
+      "language": "Python",
+      "topics": ["agents", "ai-agents", "langchain", "langgraph", "llm", "rag"]
+    },
+    {
+      "name": "Comfy-Org/ComfyUI",
+      "url": "https://github.com/Comfy-Org/ComfyUI",
+      "summary": "ComfyUI 是功能强大的模块化扩散模型图形界面，通过节点式工作流设计 Stable Diffusion 图像生成流程，支持高度自定义和插件扩展。",
+      "stars": 114243,
+      "language": "Python",
+      "topics": ["ai", "comfyui", "python", "pytorch", "stable-diffusion"]
+    },
+    {
+      "name": "github/spec-kit",
+      "url": "https://github.com/github/spec-kit",
+      "summary": "Spec-Kit 是 GitHub 推出的规格驱动开发工具包，帮助开发者通过 PRD 规格文档驱动 AI 编程工作流，提升需求到代码的转换效率。",
+      "stars": 105380,
+      "language": "Python",
+      "topics": ["ai", "copilot", "development", "spec-driven"]
+    },
+    {
+      "name": "browser-use/browser-use",
+      "url": "https://github.com/browser-use/browser-use",
+      "summary": "Browser-Use 让 AI 代理能够自动化操作网页，基于 Playwright 实现浏览器交互，适合构建网页自动化测试、数据采集等 Agent 应用。",
+      "stars": 95267,
+      "language": "Python",
+      "topics": ["ai-agents", "browser-automation", "browser-use", "llm", "playwright"]
+    },
+    {
+      "name": "hacksider/Deep-Live-Cam",
+      "url": "https://github.com/hacksider/Deep-Live-Cam",
+      "summary": "Deep-Live-Cam 是实时人脸替换工具，只需一张图片即可实现视频换脸，支持摄像头实时处理，适用于视频制作和直播场景。",
+      "stars": 93323,
+      "language": "Python",
+      "topics": ["ai", "deepfake", "faceswap", "realtime"]
+    },
+    {
+      "name": "infiniflow/ragflow",
+      "url": "https://github.com/infiniflow/ragflow",
+      "summary": "RAGFlow 是开源的检索增强生成引擎，融合 Agent 能力提供更精准的上下文检索，支持多模态文档解析，适合构建企业知识库问答系统。",
+      "stars": 81116,
+      "language": "Python",
+      "topics": ["agentic-ai", "ai-agents", "rag", "retrieval-augmented-generation"]
+    },
+    {
+      "name": "vllm-project/vllm",
+      "url": "https://github.com/vllm-project/vllm",
+      "summary": "vLLM 是高吞吐量的 LLM 推理服务引擎，采用 PagedAttention 技术优化显存使用，支持多种主流大模型，是生产级 LLM 部署的首选方案。",
+      "stars": 80838,
+      "language": "Python",
+      "topics": ["inference", "llm", "llm-serving", "moe", "transformer"]
+    },
+    {
+      "name": "TauricResearch/TradingAgents",
+      "url": "https://github.com/TauricResearch/TradingAgents",
+      "summary": "TradingAgents 是基于多代理 LLM 的金融交易框架，支持多策略协同决策，适合量化交易研究和 AI 金融应用开发。",
+      "stars": 79023,
+      "language": "Python",
+      "topics": ["agent", "finance", "llm", "multiagent", "trading"]
+    },
+    {
+      "name": "OpenHands/OpenHands",
+      "url": "https://github.com/OpenHands/OpenHands",
+      "summary": "OpenHands 是 AI 驱动的开发平台，支持自动编写代码、调试、测试等开发任务，可作为 AI 程序员辅助日常开发工作。",
+      "stars": 74688,
+      "language": "Python",
+      "topics": ["agent", "artificial-intelligence", "chatgpt", "claude-ai", "llm", "openai"]
+    }
+  ]
+}

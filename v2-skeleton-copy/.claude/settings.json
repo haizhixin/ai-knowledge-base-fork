@@ -1,0 +1,24 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(curl:*)",
+      "WebFetch(domain:github.com)",
+      "Bash(python:*)",
+      "Bash(python3:*)",
+      "Bash(echo \"退出码: $?\")",
+      "Bash(pip3 install:*)",
+      "Bash(pip3 list:*)",
+      "Bash(pip list:*)",
+      "Bash(pip3 --version)",
+      "Bash(pip3 show:*)",
+      "Bash(pip --version)"
+    ]
+  },
+  "mcpServers": {
+    "knowledge-base": {
+      "command": "python3",
+      "args": ["/Users/didi/Desktop/ai-knowledge-base-fork/v2-skeleton-copy/mcp_knowledge_server.py"],
+      "env": {}
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "kb_20260523_gh_009",
+  "title": "Dify — 生产级Agent工作流平台",
+  "source_url": "https://github.com/langgenius/dify",
+  "source_type": "github_trending",
+  "summary": "Dify定位为生产级Agent工作流平台，采用TypeScript+Python双语言架构。核心能力包括低代码工作流编排（支持条件分支、循环、并行等控制逻辑）、MCP协议集成和RAG引擎内置。提供完整的版本管理、日志追踪和A/B测试能力，满足企业级运维需求。142K Star和活跃商业化进程表明其在企业市场的验证。",
+  "content": "企业AI应用落地面临的核心挑战是如何将大模型能力快速、可靠地集成到业务流程中。纯代码方案开发周期长，纯提示词方案缺乏可控性，市场需要一个兼顾灵活性与生产级可靠性的中间层。Dify正是定位为这一中间层，提供生产级Agent工作流平台。Dify采用TypeScript+Python双语言架构，前端可视化编辑，后端高性能执行。核心能力包括：低代码工作流编排，通过拖拽节点构建AI工作流，支持条件分支、循环、并行等控制逻辑；MCP协议集成，使工作流可直接调用外部MCP工具服务；RAG引擎内置，支持多种向量数据库和文档解析，无需额外部署检索服务。平台提供完整的版本管理、日志追踪和A/B测试能力，满足企业级运维需求。142K Star和活跃的商业化进程表明其在企业市场的验证。Dify通过「低代码+生产级」的定位，有效降低了AI应用从原型到生产的鸿沟。MCP+RAG的内置集成避免了多系统拼接的复杂度，对企业AI团队效率提升显著。在中国AI开发者社区中，Dify已成为Agent工作流领域的首选方案之一。Dify在企业AI应用落地场景中提供了实用且成熟的工作流平台，低代码+MCP+RAG的组合使其在易用性和功能性间取得良好平衡，是构建生产级AI应用的可靠选择。",
+  "tags": ["dify", "workflow", "agent", "low-code", "rag"],
+  "category": "framework",
+  "status": "draft",
+  "quality_score": 80,
+  "version": 1,
+  "collected_at": "2026-05-23T08:00:00Z",
+  "analyzed_at": "2026-05-23T10:00:00Z",
+  "published_at": null,
+  "publish_status": {},
+  "metadata": {
+    "stars": 142289,
+    "language": "TypeScript+Python",
+    "highlights": [
+      "低代码工作流编排，拖拽构建AI工作流",
+      "MCP+RAG内置集成，无需额外部署",
+      "生产级运维，版本管理/日志追踪/A/B测试",
+      "双语言架构，前端可视化+后端高性能"
+    ]
+  }
+}

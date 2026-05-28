@@ -1,0 +1,27 @@
+{
+  "id": "kb_20260523_gh_002",
+  "title": "n8n — AI原生工作流自动化平台",
+  "source_url": "https://github.com/n8n-io/n8n",
+  "source_type": "github_trending",
+  "summary": "n8n是开源工作流自动化平台，近期全面拥抱AI原生架构，提供400+集成连接器，重点引入MCP客户端与服务端支持，使工作流节点可直接调用MCP工具链。平台提供可视化流程编辑器支持低代码搭建，也支持代码节点满足高级定制需求，自托管部署方案让企业数据不出内网。",
+  "content": "企业自动化需求正从简单的规则触发向AI驱动的智能工作流演进。传统iPaaS平台（如Zapier、Make）虽集成广泛，但AI能力多为后加补丁，缺乏原生深度整合。n8n作为开源工作流自动化平台，近期全面拥抱AI原生架构，成为开发者构建智能自动化流程的首选。n8n提供400+现成集成连接器，覆盖主流SaaS服务与数据库。其最新版本重点引入MCP（Model Context Protocol）客户端与服务端支持，使工作流节点可直接调用MCP工具链，实现AI Agent与外部工具的无缝协作。同时支持在流程中嵌入大模型推理节点，实现条件判断、内容生成、数据提取等智能操作。平台提供可视化流程编辑器，支持低代码搭建复杂自动化流程，也支持代码节点满足高级定制需求。自托管部署方案让企业数据不出内网。n8n的MCP集成标志着工作流自动化与AI Agent的深度融合，开发者无需在编排工具和AI框架之间反复切换，一站式完成从数据采集到智能决策的全流程。189K Star证明其在自动化领域的统治级地位。n8n通过AI原生架构和MCP支持，重新定义了工作流自动化的能力边界，是构建企业级智能自动化系统的核心基础设施。",
+  "tags": ["n8n", "workflow", "automation", "mcp", "ai-native"],
+  "category": "framework",
+  "status": "draft",
+  "quality_score": 90,
+  "version": 1,
+  "collected_at": "2026-05-23T08:00:00Z",
+  "analyzed_at": "2026-05-23T10:00:00Z",
+  "published_at": null,
+  "publish_status": {},
+  "metadata": {
+    "stars": 189327,
+    "language": "TypeScript",
+    "highlights": [
+      "AI原生架构，深度整合大模型能力",
+      "MCP双向支持，Agent与工具无缝协作",
+      "400+集成连接器，覆盖主流SaaS服务",
+      "可视化+代码双模式，兼顾低代码与高级定制"
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "id": "kb_20260515_gh_002",
+  "title": "ruvnet/ruflo - Claude Agent 编排平台",
+  "source_url": "https://github.com/ruvnet/ruflo",
+  "source_type": "github_trending",
+  "summary": "企业级 Claude Agent 编排平台，支持多 Agent 集群部署、自主工作流协调、对话式 AI 系统构建，内置 RAG 集成和自学习能力。",
+  "content": "Ruflo 是一个企业级 Claude Agent 编排平台，专注于多 Agent 系统的智能化部署与协调。核心能力包括：智能多 Agent 集群部署、自主工作流协调、对话式 AI 系统构建。项目集成了 RAG（检索增强生成）能力，支持自学习集群智能，具备完整的企业级架构设计。对于需要构建复杂多 Agent 系统的企业团队，提供了从单 Agent 到多 Agent 协作的完整解决方案。",
+  "tags": ["agent", "orchestration", "enterprise", "rag", "multi-agent"],
+  "category": "framework",
+  "status": "draft",
+  "quality_score": 70,
+  "version": 1,
+  "collected_at": "2026-05-15T08:00:00Z",
+  "analyzed_at": "2026-05-15T09:00:00Z",
+  "published_at": null,
+  "publish_status": {},
+  "metadata": {
+    "stars": 51067,
+    "language": "Python",
+    "author": "ruvnet",
+    "highlights": [
+      "企业级多 Agent 编排架构",
+      "内置 RAG 集成和自学习能力",
+      "支持智能集群部署和工作流协调",
+      "对话式 AI 系统构建能力"
+    ],
+    "score": 7,
+    "score_reason": "解决了多 Agent 协作的架构痛点，适合企业级应用场景，但学习曲线较陡"
+  }
+}

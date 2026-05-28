@@ -1,0 +1,27 @@
+{
+  "id": "kb_20260523_gh_007",
+  "title": "Prompts.chat — AI提示词社区平台",
+  "source_url": "https://github.com/f/prompts.chat",
+  "source_type": "github_trending",
+  "summary": "Prompts.chat定位为AI提示词社区平台，提供结构化的提示词分享与发现体验。支持多模型适配，同一提示词可针对不同模型优化变体管理。社区机制允许用户提交、评分和评论提示词，通过众包筛选出高质量模板。分类体系覆盖编程、写作、分析、创意等场景，还提供提示词版本管理。163K Star表明提示词复用需求广泛。",
+  "content": "提示词工程（Prompt Engineering）是大模型应用落地的基础技能，但高质量提示词的发现和复用一直缺乏系统化解决方案。开发者通常在博客、社交媒体零散分享提示词，缺乏统一的质量标准和分类体系。Prompts.chat定位为AI提示词社区平台，试图解决这一问题。Prompts.chat采用Next.js和TypeScript构建，提供结构化的提示词分享与发现体验。平台支持多模型适配，同一提示词可针对GPT、Claude、Llama等不同模型进行优化变体管理。社区机制允许用户提交、评分和评论提示词，通过众包筛选出高质量模板。分类体系覆盖编程、写作、分析、创意等多个场景，用户可按场景和模型快速找到合适模板。平台还提供提示词版本管理，追踪提示词的迭代优化过程。163K Star表明提示词复用是广泛存在的需求。Prompts.chat将提示词从个人经验上升为可复用的社区资产，降低了大模型应用的入门门槛。不过，随着模型能力提升，部分提示词技巧可能被模型原生能力取代，这是社区面临的长期挑战。Prompts.chat通过社区化运营将提示词工程系统化，为AI应用落地提供了实用的知识共享平台。其价值在模型能力尚不完美时尤为突出，长期需关注模型自身进化对提示词依赖度的影响。",
+  "tags": ["prompts", "prompt-engineering", "community", "templates", "multi-model"],
+  "category": "tool",
+  "status": "draft",
+  "quality_score": 60,
+  "version": 1,
+  "collected_at": "2026-05-23T08:00:00Z",
+  "analyzed_at": "2026-05-23T10:00:00Z",
+  "published_at": null,
+  "publish_status": {},
+  "metadata": {
+    "stars": 163000,
+    "language": "TypeScript/HTML",
+    "highlights": [
+      "结构化提示词社区，统一质量标准",
+      "多模型适配，支持GPT/Claude/Llama变体",
+      "众包质量筛选，社区评分评论机制",
+      "版本管理，追踪提示词迭代优化"
+    ]
+  }
+}

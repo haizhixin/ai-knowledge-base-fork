@@ -1,0 +1,19 @@
+{
+  "id": "kb_20260524_gh_002",
+  "title": "Hermes Agent - 可成长的 AI 代理框架",
+  "source_url": "https://github.com/NousResearch/hermes-agent",
+  "source_type": "github_trending",
+  "summary": "可成长的 Agent 框架，支持 Claude/OpenAI 多模型。强调 Agent 的持续学习和成长能力，原生支持 Claude Code、OpenAI Codex 等新平台。",
+  "content": "Hermes Agent 是 NousResearch 推出的可成长 AI 代理框架。技术亮点包括：1) 强调 Agent 的持续学习和成长能力；2) 原生支持 Claude Code、OpenAI Codex 等新平台；3) 165k Star 反映社区对 Agent 工具链的强烈需求。评分 8/10，创新的可成长概念，多模型支持到位，直接有助于 Agent 开发落地。",
+  "tags": ["ai-agent", "claude", "multi-model", "framework", "openai"],
+  "category": "framework",
+  "status": "draft",
+  "quality_score": 80,
+  "collected_at": "2026-05-24T08:00:00Z",
+  "analyzed_at": "2026-05-24T08:30:00Z",
+  "metadata": {
+    "stars": 164796,
+    "language": "Python",
+    "score": 8
+  }
+}

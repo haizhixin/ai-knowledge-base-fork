@@ -1,0 +1,27 @@
+{
+  "id": "kb_20260523_gh_004",
+  "title": "AutoGPT — 自主AI代理平台",
+  "source_url": "https://github.com/Significant-Gravitas/AutoGPT",
+  "source_type": "github_trending",
+  "summary": "AutoGPT是AI Agent领域的开创性项目，从概念验证发展为成熟的自主AI代理平台。支持多模型后端（Claude、GPT、Llama等），核心架构围绕Agent编排展开，支持多Agent协作、工具调用框架和记忆管理系统。184K Star是AI Agent赛道的标杆级数据，推动了行业从单一模型调用向多Agent编排演进。",
+  "content": "AutoGPT是AI Agent领域的开创性项目，2023年以「自主GPT」概念引爆全网，催生了整个AI Agent赛道。经过两年多演进，AutoGPT已从概念验证发展为成熟的自主AI代理平台，持续引领Agent编排架构的方向。AutoGPT当前版本支持多模型后端，包括Claude、GPT、Llama等，用户可根据任务需求灵活切换模型。核心架构围绕Agent编排展开：支持多Agent协作，通过定义角色和任务依赖实现复杂工作流拆分；提供工具调用框架，Agent可自主选择并执行搜索、代码编写、文件操作等工具；内置记忆管理系统，支持短期和长期记忆，使Agent能在多轮交互中保持上下文连贯。平台提供Web界面和API两种交互方式，方便开发者集成和调试。AutoGPT的184K Star是AI Agent赛道的标杆级数据。它证明了「AI自主执行任务」这一愿景的巨大吸引力，也推动了整个行业从单一模型调用向多Agent编排演进。不过，自主Agent在复杂任务中的可靠性仍是行业共同挑战。AutoGPT作为AI Agent领域的奠基项目，其多模型后端和Agent编排架构为行业提供了重要参考。虽然在生产级可靠性上仍有提升空间，但对理解Agent技术演进方向具有不可替代的价值。",
+  "tags": ["autogpt", "agent", "autonomous", "multi-agent", "orchestration"],
+  "category": "framework",
+  "status": "draft",
+  "quality_score": 70,
+  "version": 1,
+  "collected_at": "2026-05-23T08:00:00Z",
+  "analyzed_at": "2026-05-23T10:00:00Z",
+  "published_at": null,
+  "publish_status": {},
+  "metadata": {
+    "stars": 184463,
+    "language": "Python",
+    "highlights": [
+      "Agent赛道开创者，催生整个AI Agent赛道",
+      "多模型后端，Claude/GPT/Llama灵活切换",
+      "Agent编排架构，支持多Agent协作",
+      "两年持续演进，从概念验证走向成熟平台"
+    ]
+  }
+}

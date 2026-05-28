@@ -1,0 +1,27 @@
+{
+  "id": "kb_20260523_gh_003",
+  "title": "ECC — AI Agent性能优化系统",
+  "source_url": "https://github.com/affaan-m/ECC",
+  "source_type": "github_trending",
+  "summary": "ECC（Enhanced Coding Companion）为Claude Code、Codex、Cursor等主流AI编程工具提供跨IDE性能优化方案。核心能力包括MCP扩展集成、上下文窗口优化、响应缓存与预计算。填补了AI编程助手生态中的性能优化空白，提供统一优化层降低高级配置门槛。",
+  "content": "AI编程助手（Claude Code、Cursor、Codex等）已深入开发者日常工作，但它们的性能表现仍有巨大优化空间——响应延迟、上下文管理效率、工具调用开销等问题直接影响开发体验。ECC（Enhanced Coding Companion）正是针对这一痛点，提供跨IDE的AI Agent性能优化方案。ECC为Claude Code、Codex、Cursor等主流AI编程工具提供性能增强层。核心能力包括：MCP扩展集成，允许AI编程助手通过MCP协议调用外部工具和服务，大幅扩展可用能力边界；上下文窗口优化，通过智能压缩和检索策略提升长代码场景下的理解准确度；响应缓存与预计算，减少重复查询的等待时间。系统支持插件化扩展，开发者可自定义优化策略。本周更新聚焦MCP扩展兼容性改进和缓存命中率提升。ECC填补了AI编程助手生态中的性能优化空白。当前多数优化需用户自行配置，ECC提供统一优化层，降低了高级配置门槛。189K Star表明开发者社区对「让AI编程助手更好用」这一诉求的强烈共鸣。ECC从性能优化角度切入AI编程助手赛道，定位精准，MCP扩展能力为其构建了差异化竞争壁垒，是提升日常AI编程效率的实用工具。",
+  "tags": ["ecc", "performance", "mcp", "coding-assistant", "optimization"],
+  "category": "tool",
+  "status": "draft",
+  "quality_score": 70,
+  "version": 1,
+  "collected_at": "2026-05-23T08:00:00Z",
+  "analyzed_at": "2026-05-23T10:00:00Z",
+  "published_at": null,
+  "publish_status": {},
+  "metadata": {
+    "stars": 188568,
+    "language": "JavaScript",
+    "highlights": [
+      "跨IDE性能优化，支持主流AI编程工具",
+      "MCP扩展集成，扩展AI助手能力边界",
+      "上下文优化策略，提升长代码场景准确度",
+      "统一优化层，降低高级配置门槛"
+    ]
+  }
+}
