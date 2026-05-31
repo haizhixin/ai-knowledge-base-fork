@@ -274,18 +274,23 @@ class Collector:
     def _generate_id(self, source_prefix: str, url: str) -> str:
         """生成唯一 ID。
 
-        格式: kb_YYYYMMDD_来源_哈希前8位
+        格式: {source}-{YYYYMMDD}-{NNN}
 
         Args:
             source_prefix: 来源前缀（gh/rss）。
-            url: 文章 URL。
+            url: 文章 URL（用于去重，不参与 ID 生成）。
 
         Returns:
             唯一 ID。
         """
         date_str = datetime.now().strftime("%Y%m%d")
-        url_hash = hashlib.md5(url.encode()).hexdigest()[:8]
-        return f"kb_{date_str}_{source_prefix}_{url_hash}"
+
+        # 获取当日该来源已有的文章数量，生成序号
+        pattern = f"{source_prefix}-{date_str}-*.json"
+        existing = list(KNOWLEDGE_ARTICLES_DIR.glob(pattern))
+        seq = len(existing) + 1
+
+        return f"{source_prefix}-{date_str}-{seq:03d}"
 
 
 # ============================================================================

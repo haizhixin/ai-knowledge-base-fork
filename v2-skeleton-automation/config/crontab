@@ -1,0 +1,8 @@
+# AI 知识库自动化定时任务
+# 文件位置：config/crontab
+
+# 每天早上 8 点执行采集（Step 1-2：免费数据源）
+0 8 * * * cd ~/Desktop/ai-knowledge-base-fork/v2-skeleton-automation && python pipeline/pipeline.py --step 1 --step 2 >> logs/collect.log 2>&1
+
+# 每周日上午 10 点执行分析入库（Step 3-4：AI 分析）
+0 10 * * 0 cd ~/Desktop/ai-knowledge-base-fork/v2-skeleton-automation && python pipeline/pipeline.py --step 3 --step 4 >> logs/analyze.log 2>&1
