@@ -71,6 +71,150 @@ class Usage:
         )
 
 
+# 国产模型价格表（元/百万 tokens）
+PRICING_CNY: dict[str, dict[str, float]] = {
+    "deepseek": {"input": 1.0, "output": 2.0},
+    "qwen": {"input": 4.0, "output": 12.0},
+    "openai": {"input": 150.0, "output": 600.0},
+}
+
+
+class CostTracker:
+    """LLM 调用成本追踪器。
+
+    追踪各提供商的 token 消耗和成本（人民币）。
+
+    Attributes:
+        usage_by_provider: 各提供商的累计用量。
+        call_count: 各提供商的调用次数。
+    """
+
+    def __init__(self) -> None:
+        """初始化追踪器。"""
+        self._usage: dict[str, Usage] = {}
+        self._call_count: dict[str, int] = {}
+
+    def record(self, usage: Usage, provider: str) -> None:
+        """记录一次 API 调用的用量。
+
+        Args:
+            usage: 本次调用的 token 用量。
+            provider: 提供商名称（deepseek/qwen/openai）。
+        """
+        provider = provider.lower()
+
+        if provider not in self._usage:
+            self._usage[provider] = Usage()
+            self._call_count[provider] = 0
+
+        self._usage[provider] += usage
+        self._call_count[provider] += 1
+
+        logger.debug(
+            "记录用量: provider=%s, prompt=%d, completion=%d",
+            provider,
+            usage.prompt_tokens,
+            usage.completion_tokens,
+        )
+
+    def estimated_cost(self, provider: str | None = None) -> float:
+        """计算估算成本（元）。
+
+        Args:
+            provider: 提供商名称，为 None 时返回所有提供商的总成本。
+
+        Returns:
+            估算成本（人民币）。
+        """
+        if provider:
+            provider = provider.lower()
+            return self._calc_cost(provider)
+
+        return sum(self._calc_cost(p) for p in self._usage)
+
+    def _calc_cost(self, provider: str) -> float:
+        """计算单个提供商的成本。
+
+        Args:
+            provider: 提供商名称。
+
+        Returns:
+            成本（元）。
+        """
+        if provider not in self._usage:
+            return 0.0
+
+        usage = self._usage[provider]
+        pricing = PRICING_CNY.get(provider, {"input": 0.0, "output": 0.0})
+
+        cost = (
+            usage.prompt_tokens * pricing["input"] / 1_000_000
+            + usage.completion_tokens * pricing["output"] / 1_000_000
+        )
+
+        return cost
+
+    def report(self, provider: str | None = None) -> None:
+        """打印成本报告。
+
+        Args:
+            provider: 提供商名称，为 None 时打印所有提供商报告。
+        """
+        if provider:
+            self._print_provider_report(provider.lower())
+            return
+
+        # 打印所有提供商报告
+        if not self._usage:
+            print("暂无 LLM 调用记录")
+            return
+
+        total_cost = 0.0
+        print("\n" + "=" * 60)
+        print("LLM 调用成本报告")
+        print("=" * 60)
+
+        for p in sorted(self._usage.keys()):
+            self._print_provider_report(p)
+            total_cost += self._calc_cost(p)
+
+        print("-" * 60)
+        print(f"总成本: ¥{total_cost:.4f}")
+        print("=" * 60)
+
+    def _print_provider_report(self, provider: str) -> None:
+        """打印单个提供商的报告。
+
+        Args:
+            provider: 提供商名称。
+        """
+        if provider not in self._usage:
+            print(f"\n{provider}: 无调用记录")
+            return
+
+        usage = self._usage[provider]
+        count = self._call_count[provider]
+        cost = self._calc_cost(provider)
+        pricing = PRICING_CNY.get(provider, {"input": 0.0, "output": 0.0})
+
+        print(f"\n[{provider.upper()}]")
+        print(f"  调用次数: {count}")
+        print(f"  输入 tokens: {usage.prompt_tokens:,}")
+        print(f"  输出 tokens: {usage.completion_tokens:,}")
+        print(f"  总 tokens: {usage.total_tokens:,}")
+        print(f"  价格 (元/百万): 输入 {pricing['input']}, 输出 {pricing['output']}")
+        print(f"  成本: ¥{cost:.4f}")
+
+    def reset(self) -> None:
+        """重置所有记录。"""
+        self._usage.clear()
+        self._call_count.clear()
+
+
+# 全局成本追踪器实例
+tracker = CostTracker()
+
+
 @dataclass
 class LLMResponse:
     """LLM 响应结果。"""
@@ -399,6 +543,10 @@ class LLMClient:
             **kwargs,
         )
         self._total_usage += response.usage
+
+        # 自动记录到全局追踪器
+        tracker.record(response.usage, response.provider)
+
         return response
 
     def estimate_tokens(self, text: str) -> int:

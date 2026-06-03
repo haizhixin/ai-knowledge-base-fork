@@ -32,7 +32,7 @@ from urllib.parse import urlparse
 import httpx
 
 # 同目录下的 model_client
-from model_client import LLMClient, LLMError, chat_with_retry
+from model_client import LLMClient, LLMError, chat_with_retry, tracker
 
 logger = logging.getLogger(__name__)
 
@@ -754,6 +754,9 @@ class Pipeline:
                     stats["collected"], stats["analyzed"],
                     stats["organized"], stats["saved"])
         logger.info("=" * 60)
+
+        # 打印成本报告
+        tracker.report()
 
         return stats
 
